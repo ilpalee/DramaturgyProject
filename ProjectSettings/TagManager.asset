@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Limite
+  - Mapa2
+  - PuntoSpawn
+  - Personaje1
+  - Pasaje
   layers:
   - Default
   - TransparentFX
