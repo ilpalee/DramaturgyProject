@@ -1,16 +1,12 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/AssetsExterior/Mapa1_Piso.png.meta
 guid: c60c0504bf8f24247912286265d4d14b
-========
-guid: 09aed13aecabeac4e8fcee5ef966d46c
->>>>>>>> 52a0ae8f66281795ca61e5354742783b056a1197:Assets/AssetsExterior/CasaYReja-Exportacion.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -46,20 +42,16 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-<<<<<<<< HEAD:Assets/AssetsExterior/Mapa1_Piso.png.meta
   spritePixelsToUnits: 48
-========
-  spritePixelsToUnits: 100
->>>>>>>> 52a0ae8f66281795ca61e5354742783b056a1197:Assets/AssetsExterior/CasaYReja-Exportacion.png.meta
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
@@ -70,8 +62,8 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
-  cookieLightType: 0
+  applyGammaDecoding: 1
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -90,7 +82,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -102,7 +94,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,7 +106,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,7 +115,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<<< HEAD:Assets/AssetsExterior/Mapa1_Piso.png.meta
     sprites:
     - serializedVersion: 2
       name: Mapa1_Piso_0
@@ -140,15 +131,12 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5bd17a25c6b813429ffcadcd80dcc89
-      internalID: -60602095
+      spriteID: 6047cfe23b737e2488599782727901d2
+      internalID: 368185402
       vertices: []
       indices: 
       edges: []
       weights: []
-========
-    sprites: []
->>>>>>>> 52a0ae8f66281795ca61e5354742783b056a1197:Assets/AssetsExterior/CasaYReja-Exportacion.png.meta
     outline: []
     physicsShape: []
     bones: []
@@ -159,12 +147,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<<< HEAD:Assets/AssetsExterior/Mapa1_Piso.png.meta
     nameFileIdTable:
-      Mapa1_Piso_0: -60602095
-========
-    nameFileIdTable: {}
->>>>>>>> 52a0ae8f66281795ca61e5354742783b056a1197:Assets/AssetsExterior/CasaYReja-Exportacion.png.meta
+      Mapa1_Piso_0: 368185402
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
