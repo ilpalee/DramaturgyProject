@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e8059489e7fd6024ca70e2c668b02d22
+guid: 1016432e3de0fd846aedeebc63ea9438
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,190 +117,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AssetsExterior2_0
+      name: BigHouse-Arbol-Valla_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 42
-        width: 60
-        height: 130
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11350799ffbdd1c4bb46aa0585fc39cf
-      internalID: 1189954133
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AssetsExterior2_1
-      rect:
-        serializedVersion: 2
-        x: 126
-        y: 112
-        width: 101
-        height: 113
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1890c9c53b158254ca8364fb94480e6a
-      internalID: -1248074293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AssetsExterior2_2
-      rect:
-        serializedVersion: 2
-        x: 279
-        y: 169
-        width: 125
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 807aa3b1b6b95bb44a17f45bdbf7ea3e
-      internalID: -1065325030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AssetsExterior2_3
-      rect:
-        serializedVersion: 2
-        x: 281
-        y: 117
-        width: 13
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2ac996ebd329204996ac634b4d2e9a6
-      internalID: 1299935547
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AssetsExterior2_4
-      rect:
-        serializedVersion: 2
-        x: 337
-        y: 115
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb76c3c520b6aec43a07f09dcf16f098
-      internalID: -51308230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AssetsExterior2_5
-      rect:
-        serializedVersion: 2
-        x: 381
-        y: 110
-        width: 24
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a699129824a7e24ea6fdeee77ef6a2a
-      internalID: -1839917100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AssetsExterior2_6
-      rect:
-        serializedVersion: 2
-        x: 124
-        y: 25
-        width: 81
-        height: 57
+        x: 50
+        y: 504
+        width: 636
+        height: 171
       alignment: 9
-      pivot: {x: 0.499731, y: 0.008773904}
+      pivot: {x: 0.4990806, y: 0.09746065}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 628739297b47d0e4e8e4dc5fb78161fd
-      internalID: 851480052
+      spriteID: d9b133ca02e260b41bb9a8d8a4d186fd
+      internalID: 640621934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AssetsExterior2_7
+      name: BigHouse-Arbol-Valla_1
       rect:
         serializedVersion: 2
-        x: 250
-        y: 27
-        width: 66
-        height: 61
+        x: 722
+        y: 498
+        width: 182
+        height: 206
       alignment: 9
-      pivot: {x: 0.5, y: 0.11}
+      pivot: {x: 0.5006747, y: 0.111979954}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 937e9021c09739b498932edca76dfd4d
-      internalID: 415068630
+      spriteID: dc5e258e6dcb3b241960574134192b47
+      internalID: -817726215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AssetsExterior2_8
+      name: BigHouse-Arbol-Valla_2
       rect:
         serializedVersion: 2
-        x: 354
-        y: 48
-        width: 52
-        height: 25
-      alignment: 9
-      pivot: {x: 0.4841426, y: 0.20313278}
+        x: 825
+        y: 497
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5b70f4524e157c44a77be268aee9fd5
-      internalID: 2028331788
+      spriteID: c0f5ebe7e59136e4db30c1a88d7ba832
+      internalID: 63498595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigHouse-Arbol-Valla_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 884
+        height: 472
+      alignment: 9
+      pivot: {x: 0.4980231, y: 0.096265845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4fda5974af3e541ac43cf3d742a8ad
+      internalID: -1673519989
       vertices: []
       indices: 
       edges: []
@@ -316,15 +211,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      AssetsExterior2_0: 1189954133
-      AssetsExterior2_7: 415068630
-      AssetsExterior2_3: 1299935547
-      AssetsExterior2_5: -1839917100
-      AssetsExterior2_1: -1248074293
-      AssetsExterior2_4: -51308230
-      AssetsExterior2_8: 2028331788
-      AssetsExterior2_2: -1065325030
-      AssetsExterior2_6: 851480052
+      BigHouse-Arbol-Valla_1: -817726215
+      BigHouse-Arbol-Valla_0: 640621934
+      BigHouse-Arbol-Valla_3: -1673519989
+      BigHouse-Arbol-Valla_2: 63498595
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

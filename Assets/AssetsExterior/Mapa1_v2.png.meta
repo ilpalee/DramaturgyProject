@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 10d854a0ee9c8094a9ffcd0d57866695
+guid: 74b07bd35e714e84895bf2dfe4eada4c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mapa2-piso_0
+      name: Mapa1_v2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 960
-        height: 960
+        width: 1440
+        height: 1440
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0a3a17f2d9510f408477aca68a87e16
-      internalID: 1952173795
+      spriteID: e21eef3ae94125043b8dd8cf56bd75fd
+      internalID: 1147632954
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mapa2-piso_0: 1952173795
+      Mapa1_v2_0: 1147632954
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

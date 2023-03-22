@@ -13,7 +13,7 @@ public class Player_1_Controller : MonoBehaviour
 
     string LastDirection = "";
 
-    LoadSceneManager ScriptLoadSceneManager;
+    
 
     private MovementAxis axis = MovementAxis.Horizontal;
 
@@ -24,7 +24,8 @@ public class Player_1_Controller : MonoBehaviour
 
       private void Start()
       {
-         ScriptLoadSceneManager = FindObjectOfType<LoadSceneManager>();
+         
+         
          movement = Vector3.zero;
       }
 
@@ -107,18 +108,12 @@ public class Player_1_Controller : MonoBehaviour
          
       }
 
-
-      public void OnCollisionEnter2D(Collision2D colisiona)
-    {
-        if (colisiona.gameObject.tag == "Pasaje")
-        {
-            ScriptLoadSceneManager.CambioEscenas();
-            
-        }
-    }
+      
       
 
 
+
+      
 }
 
 

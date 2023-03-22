@@ -6,9 +6,11 @@ TagManager:
   tags:
   - Limite
   - Mapa2
-  - PuntoSpawn
   - Personaje1
-  - Pasaje
+  - HaciaMapa1
+  - HaciaMapa2
+  - HaciaMapa3
+  - HaciaMapa4
   layers:
   - Default
   - TransparentFX

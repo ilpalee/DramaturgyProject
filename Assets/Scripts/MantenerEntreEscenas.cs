@@ -16,14 +16,14 @@ public class MantenerEntreEscenas : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-
+        
         DontDestroyOnLoad(gameObject);
 
     }
     
     void Start()
     {
-        
+       
     }
 
     
