@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 
-public class test : MonoBehaviour
+public class CambioVC : MonoBehaviour
 {
 
     public CinemachineVirtualCamera virtualCamera;
