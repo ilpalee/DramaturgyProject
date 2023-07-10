@@ -1,0 +1,355 @@
+fileFormatVersion: 2
+guid: fee98d701343e6f4cb30091c8d28cca2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pastitoanim_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 15
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5000004, y: -0.13008313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7c2d0b62b13cf479f3c5db31f76a1b
+      internalID: 767849405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pastitoanim_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 15
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: -0.12995107}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f263f7ae5ca7d6c419a1de6486ec1df4
+      internalID: 1701850795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pastitoanim_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 15
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.49000388, y: -0.12495297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068bfdc467551c04ca9d89849fef46b5
+      internalID: -439411122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pastitoanim_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 15
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.49500155, y: -0.12495297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8946663eb490245921f8eb693ba967
+      internalID: -167259023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pastitoanim_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 15
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.51999223, y: -0.12495297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afac713be105d3549b1532701236a427
+      internalID: -1765094601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pastitoanim_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 15
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5099953, y: -0.11995481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89d0c76f15c35246a1014a9caf16622
+      internalID: 143797810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pastitoanim_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 15
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: -0.12995107}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd58f26fa3a04f449e1aa0a1dea9df6
+      internalID: 1002628464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pastitoanim_7
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 15
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.49000308, y: -0.12995107}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f95b9c2727bb24f96ee7c5673bed8d
+      internalID: 219679379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pastitoanim_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 15
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.4999984, y: -0.12495297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ff17b8137b9324c8e00e80b53fc6c8
+      internalID: 1655233168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pastitoanim_9
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 15
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.49500155, y: -0.11995481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ec89c8cb3ecf141be7c48a07da8f91
+      internalID: 275673710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pastitoanim_4: -1765094601
+      pastitoanim_6: 1002628464
+      pastitoanim_2: -439411122
+      pastitoanim_9: 275673710
+      pastitoanim_3: -167259023
+      pastitoanim_1: 1701850795
+      pastitoanim_5: 143797810
+      pastitoanim_0: 767849405
+      pastitoanim_8: 1655233168
+      pastitoanim_7: 219679379
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
