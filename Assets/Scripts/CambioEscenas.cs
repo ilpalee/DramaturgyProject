@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class CambioEscenas : MonoBehaviour
 {
+
+     private bool EnPuerta = false;
     
     void Start()
     {
@@ -15,18 +17,29 @@ public class CambioEscenas : MonoBehaviour
 
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space) && EnPuerta == true)
+        {
+           ChangeScene();
+           SceneManager.LoadScene("Mapa_5");
+           EnPuerta = false;
+        }
     }
 
    
    public void OnTriggerEnter2D(Collider2D collision)
    {
-     if (collision.gameObject.CompareTag("Test"))
-     {
-          Debug.Log("asd");
+     if (collision.gameObject.CompareTag("Puerta"))
+     {    
+          EnPuerta = true;
      }
-     
-   } 
+   }
+   public void OnTriggerExit2D(Collider2D collision)
+   {
+     if (collision.gameObject.CompareTag("Puerta"))
+     {    
+          EnPuerta = false;
+     }
+   }  
 
     public void OnCollisionEnter2D(Collision2D collision)
     { 
