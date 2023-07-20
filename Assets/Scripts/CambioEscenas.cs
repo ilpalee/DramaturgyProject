@@ -19,7 +19,14 @@ public class CambioEscenas : MonoBehaviour
     }
 
    
-    
+   public void OnTriggerEnter2D(Collider2D collision)
+   {
+     if (collision.gameObject.CompareTag("Test"))
+     {
+          Debug.Log("asd");
+     }
+     
+   } 
 
     public void OnCollisionEnter2D(Collision2D collision)
     { 

@@ -11,6 +11,7 @@ TagManager:
   - HaciaMapa2
   - HaciaMapa3
   - HaciaMapa4
+  - Test
   layers:
   - Default
   - TransparentFX
