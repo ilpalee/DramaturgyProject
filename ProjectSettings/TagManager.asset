@@ -12,6 +12,8 @@ TagManager:
   - HaciaMapa3
   - HaciaMapa4
   - Puerta
+  - VCPasillo
+  - VCLobby
   layers:
   - Default
   - TransparentFX
