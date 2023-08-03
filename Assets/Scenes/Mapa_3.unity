@@ -7491,6 +7491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lluvia
       objectReference: {fileID: 0}
+    - target: {fileID: 4578130069061125456, guid: bdf741209352e3c4eaf9ea87e1270fc4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4578130069061125459, guid: bdf741209352e3c4eaf9ea87e1270fc4, type: 3}
       propertyPath: m_RootOrder
       value: 3
