@@ -20,6 +20,12 @@ public class CameraFollow : MonoBehaviour
         
     }
 
+    public void SetCameraLimits(Vector2 minPos, Vector2 maxPos)
+    {
+        MaxPos = maxPos;
+        MinPos = minPos;
+    }
+
     void FixedUpdate()
     {
         if(transform.position != Objetivo.position)
