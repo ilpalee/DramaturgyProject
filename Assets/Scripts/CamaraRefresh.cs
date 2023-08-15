@@ -9,6 +9,7 @@ public class CamaraRefresh : MonoBehaviour
     public Vector2 MinCameraPos;
     
     
+    // Si el personaje entra en Trigger con el gameobject de este script, se actualizan los valores max y min de la camara main (Se definen los valores desde el inspector).
 
     private void OnTriggerEnter2D(Collider2D other)
     {

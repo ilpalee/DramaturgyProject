@@ -8,6 +8,7 @@ public class DatosGuardadosEntreEscenas : MonoBehaviour
 
     public static DatosGuardadosEntreEscenas Instancia;
 
+    // GameObject que conserva los datos (dentro de este) entre las escenas, eliminando duplicados.
 
     void Awake()
     {

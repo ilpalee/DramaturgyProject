@@ -20,11 +20,15 @@ public class CameraFollow : MonoBehaviour
         
     }
 
+    // Actualizacion de los valores max y min de la camara, teniendo en cuenta los predefinidos en el script "CamaraRefresh"
+
     public void SetCameraLimits(Vector2 minPos, Vector2 maxPos)
     {
         MaxPos = maxPos;
         MinPos = minPos;
     }
+
+    // La camara main sigue el movimiento del personaje + valores iniciales de max y min como limite.
 
     void FixedUpdate()
     {

@@ -10,6 +10,7 @@ public class Player_1_Controller : MonoBehaviour
     public float speed;
     public Vector2 movement;
     public Animator anim;
+    public bool MovementInput = true;
 
     string LastDirection = "";
 
@@ -24,15 +25,15 @@ public class Player_1_Controller : MonoBehaviour
 
       private void Start()
       {
-         
-         
          movement = Vector3.zero;
       }
 
       private void Update()
       {
             // CONFIGURACION DE MOVIMIENTO BASE, HORIZONTAL Y VERTICAL, TECLAS: W,A,S,D / FLECHAS
-            
+        if (MovementInput == true)
+        {
+
          if (Input.GetButtonDown("Horizontal")) axis = MovementAxis.Horizontal;
          if (Input.GetButtonDown("Vertical")) axis = MovementAxis.Vertical;
 
@@ -98,13 +99,22 @@ public class Player_1_Controller : MonoBehaviour
                   anim.Play("PJ1_Idle_Front");
             }
          }
+        }
       }
 
-      private void FixedUpdate()
+      public void FixedUpdate()
       {     
              // MOVIMIENTO DEL RIGIDBODY, LO QUE PERMITE MOVER AL PJ
-
-         rb.MovePosition(rb.position + movement * (speed * Time.fixedDeltaTime));
+         if (MovementInput == true)
+         {
+            rb.MovePosition(rb.position + movement * (speed * Time.fixedDeltaTime));
+         }
+         else if (MovementInput == false)
+         {
+            movement.y = 0;
+            movement.x = 0;
+            anim.enabled = false;
+         }
          
       }
 

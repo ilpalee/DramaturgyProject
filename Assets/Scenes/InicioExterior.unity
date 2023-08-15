@@ -54562,6 +54562,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 922939391384842367, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: timeEffect
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 922939391384842367, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: initialDelay
+      value: 0.4
+      objectReference: {fileID: 0}
     - target: {fileID: 1031847765799350988, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -54609,6 +54617,10 @@ PrefabInstance:
     - target: {fileID: 1677412672556819838, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_Name
       value: DatosEntreEscenas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6092209231447574911, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: speed
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}

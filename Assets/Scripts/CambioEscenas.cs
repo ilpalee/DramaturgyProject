@@ -14,7 +14,7 @@ public class CambioEscenas : MonoBehaviour
         
     }
 
-
+    // Si el personaje se encuentra en el collider de la puerta (bool) y presiona la tecla determinada, se carga la escena e inica la funcion de la corrutina (pausa del juego).
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && EnPuerta == true)

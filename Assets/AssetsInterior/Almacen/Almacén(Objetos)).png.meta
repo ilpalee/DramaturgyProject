@@ -1,0 +1,839 @@
+fileFormatVersion: 2
+guid: 7ec1ab6201c5057419eefea337c4fbef
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_0"
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 427
+        width: 43
+        height: 49
+      alignment: 9
+      pivot: {x: 0.49583045, y: 0.9792991}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d0b0312d882544c8ac587da1abab8b
+      internalID: -1566401951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_1"
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 441
+        width: 33
+        height: 35
+      alignment: 9
+      pivot: {x: 0.504831, y: 0.12297189}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3246f47a9045ea04ca656e6a01ae5bd6
+      internalID: 992541058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_2"
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 369
+        width: 36
+        height: 40
+      alignment: 9
+      pivot: {x: 0.49470097, y: 0.09536133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2ddd060a28c844c90ea213b1aa3eae
+      internalID: 1537325809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_3"
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 370
+        width: 36
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09605179}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cfa0aa5ed873b4aaddaf2210d5f7e6
+      internalID: 1207909201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_4"
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 218
+        width: 82
+        height: 131
+      alignment: 9
+      pivot: {x: 0.4957573, y: 0.13012975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eaf46b8ca77f4e4887fe9cfe0ceb366
+      internalID: 42319119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_5"
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 348
+        width: 17
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443a638663bd9dc42bc7cadd4806f715
+      internalID: -818537396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_6"
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 348
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045cf77c4494d764aa2a601fe0f0d2ff
+      internalID: -818515704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_7"
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 348
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872a14f505b242a4b9ce91cc86818df4
+      internalID: -1555481217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_8"
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 325
+        width: 13
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df1aeaf1e0b8504daf03147d43fb692
+      internalID: 1889187275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_9"
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 325
+        width: 13
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a1119afeba5c642873daac486b48e0
+      internalID: -629726630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_10"
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 325
+        width: 13
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2266e5e53956b6e41ac069043d1c3f9f
+      internalID: 971616119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_11"
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 323
+        width: 12
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d140680c440dd45b1e23082f5a84ec
+      internalID: 1665839764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_12"
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 323
+        width: 6
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d7645f9ecc9e94cbfb17126c6f8a76
+      internalID: 882097838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_13"
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 323
+        width: 14
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b75b0ca3f73c442a5f502f5163b7b1
+      internalID: 275887084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_14"
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 323
+        width: 12
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a5df53ce154b643859068100824cdc
+      internalID: 692449609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_15"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 323
+        width: 12
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236f1274491fec34fb22c83c1aa01b4a
+      internalID: 1724676292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_16"
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 323
+        width: 12
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefe8b16933be434fb135538e5f3e1dc
+      internalID: -1509152136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_17"
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 301
+        width: 13
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9227a6be8e615ef47aaca51af8f0fbb4
+      internalID: 1479296745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_18"
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 301
+        width: 13
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae311c10431c214a8da39b793114ecd
+      internalID: 173873161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_19"
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 301
+        width: 13
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09211076bd736b14d9a4c9021beadc25
+      internalID: -138311589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_20"
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 299
+        width: 10
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fc7641d17479a45b3dfdd298f3cf03
+      internalID: 1872727609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_21"
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 299
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7b36d7fc0875e40b241a860527cefb
+      internalID: -551748498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_22"
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 299
+        width: 10
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fb301f7921aa741afed6548bdda814
+      internalID: -2120855180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_23"
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 299
+        width: 12
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17ddf0f503ba8e4c977b749942e7469
+      internalID: 630896508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_24"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 299
+        width: 12
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0697e61be2649d64da5c922042967096
+      internalID: 1422604219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_25"
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 299
+        width: 12
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bad27a392c31c7479162b223a2e1f5b
+      internalID: 1368466863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_26"
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 193
+        width: 51
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1351562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff6df974da252e448e248a56bf3857a
+      internalID: -946125874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_27"
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 194
+        width: 51
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13913088}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c35628893ff5ce4bb57b2877a38105b
+      internalID: 229571232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_28"
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 142
+        width: 50
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14335069}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bb205b28fd4d24a9384915fa184ff8
+      internalID: 1629800041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_29"
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 143
+        width: 50
+        height: 46
+      alignment: 9
+      pivot: {x: 0.49706054, y: 0.12139826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7790d4964e18a5948ad40e03527f85c1
+      internalID: -1479454806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_30"
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 41
+        width: 66
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5147867, y: 0.2293168}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19dde6ced3b6b6468e614248baf0beb
+      internalID: 279157473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Almac\xE9n(Objetos))_31"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 39
+        width: 66
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5092265, y: 0.23199618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc19e161d4a2cb46a3ad642592e4db3
+      internalID: -406341790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Almac\xE9n(Objetos))_7": -1555481217
+      "Almac\xE9n(Objetos))_24": 1422604219
+      "Almac\xE9n(Objetos))_27": 229571232
+      "Almac\xE9n(Objetos))_9": -629726630
+      "Almac\xE9n(Objetos))_17": 1479296745
+      "Almac\xE9n(Objetos))_15": 1724676292
+      "Almac\xE9n(Objetos))_18": 173873161
+      "Almac\xE9n(Objetos))_29": -1479454806
+      "Almac\xE9n(Objetos))_28": 1629800041
+      "Almac\xE9n(Objetos))_10": 971616119
+      "Almac\xE9n(Objetos))_3": 1207909201
+      "Almac\xE9n(Objetos))_2": 1537325809
+      "Almac\xE9n(Objetos))_4": 42319119
+      "Almac\xE9n(Objetos))_6": -818515704
+      "Almac\xE9n(Objetos))_11": 1665839764
+      "Almac\xE9n(Objetos))_12": 882097838
+      "Almac\xE9n(Objetos))_5": -818537396
+      "Almac\xE9n(Objetos))_26": -946125874
+      "Almac\xE9n(Objetos))_14": 692449609
+      "Almac\xE9n(Objetos))_19": -138311589
+      "Almac\xE9n(Objetos))_22": -2120855180
+      "Almac\xE9n(Objetos))_25": 1368466863
+      "Almac\xE9n(Objetos))_1": 992541058
+      "Almac\xE9n(Objetos))_13": 275887084
+      "Almac\xE9n(Objetos))_21": -551748498
+      "Almac\xE9n(Objetos))_0": -1566401951
+      "Almac\xE9n(Objetos))_20": 1872727609
+      "Almac\xE9n(Objetos))_16": -1509152136
+      "Almac\xE9n(Objetos))_8": 1889187275
+      "Almac\xE9n(Objetos))_23": 630896508
+      "Almac\xE9n(Objetos))_30": 279157473
+      "Almac\xE9n(Objetos))_31": -406341790
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
