@@ -4,16 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Limite
-  - Mapa2
   - Personaje1
-  - HaciaMapa1
-  - HaciaMapa2
-  - HaciaMapa3
-  - HaciaMapa4
   - Puerta
-  - VCPasillo
-  - VCLobby
+  - FadeObject
   layers:
   - Default
   - TransparentFX

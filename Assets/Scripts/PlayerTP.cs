@@ -10,10 +10,9 @@ public class PlayerTP : MonoBehaviour
     
     void Start()
     {
-        
-    }
+        FadeEffect = GameObject.FindGameObjectWithTag("FadeObject");
 
-    
+    }
     void Update()
     {
         

@@ -20,7 +20,7 @@ public class CambioEscenas : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && EnPuerta == true)
         {
            ChangeScene();
-           SceneManager.LoadScene("Mapa_5");
+           SceneManager.LoadScene("EntradaCasa");
            EnPuerta = false;
         }
     }
@@ -41,36 +41,6 @@ public class CambioEscenas : MonoBehaviour
      }
    }  
 
-    public void OnCollisionEnter2D(Collision2D collision)
-    { 
-        if (collision.gameObject.CompareTag("HaciaMapa1"))
-        {
-             
-             ChangeScene();
-             SceneManager.LoadScene("Mapa_1");
-        }
-
-        if (collision.gameObject.CompareTag("HaciaMapa2"))
-        {
-             
-             ChangeScene();
-             SceneManager.LoadScene("Mapa_2");
-        }
-
-        if (collision.gameObject.CompareTag("HaciaMapa3"))
-        {
-             ChangeScene();
-             SceneManager.LoadScene("Mapa_3");
-        }
-
-        if (collision.gameObject.CompareTag("HaciaMapa4"))
-        {
-             ChangeScene();
-             SceneManager.LoadScene("Mapa_4");
-        }
-
-    }
-
      
 
      public void ChangeScene()
@@ -80,13 +50,14 @@ public class CambioEscenas : MonoBehaviour
 
      IEnumerator ChangeSceneWithPause()
      {
-        yield return new WaitForSecondsRealtime(0.1f);
+       // Luego de este tiempo, pausa el juego
+        yield return new WaitForSecondsRealtime(0.3f);
         
         // Pausa el juego
         Time.timeScale = 0f;
 
         // Espera la duracion de la pausa
-        yield return new WaitForSecondsRealtime(0.2f);
+        yield return new WaitForSecondsRealtime(0.5f);
 
         // Reanuda el juego
         Time.timeScale = 1f;

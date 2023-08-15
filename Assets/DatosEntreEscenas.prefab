@@ -106,7 +106,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1413502929777521125}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.06, y: -25.454, z: 0}
+  m_LocalPosition: {x: 5.06, y: -25.376, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -323,7 +323,7 @@ GameObject:
   - component: {fileID: 922939391384842367}
   m_Layer: 5
   m_Name: GDT-Canvas-Fade-Object
-  m_TagString: Untagged
+  m_TagString: FadeObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -401,8 +401,8 @@ MonoBehaviour:
   playOnAwake: 1
   firstColor: {r: 0, g: 0, b: 0, a: 0}
   lastColor: {r: 0, g: 0, b: 0, a: 1}
-  timeEffect: 1
-  initialDelay: 0.2
+  timeEffect: 0.2
+  initialDelay: 0.5
   firstToLast: 0
   pingPong: 0
   pingPongDelay: 0
@@ -423,7 +423,7 @@ GameObject:
   - component: {fileID: 825634025}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -436,7 +436,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7800218095142726729}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.03, y: -24.61, z: -10}
+  m_LocalPosition: {x: 5.1, y: -24.53, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -528,8 +528,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Objetivo: {fileID: 302895579}
   Smooth: 0.15
-  MaxPos: {x: 8.61, y: -4.62}
-  MinPos: {x: -8.62, y: -27.11}
+  MaxPos: {x: 8.29, y: -4.73}
+  MinPos: {x: -8.3, y: -27.18}
 --- !u!1 &8516648012798964280
 GameObject:
   m_ObjectHideFlags: 0
