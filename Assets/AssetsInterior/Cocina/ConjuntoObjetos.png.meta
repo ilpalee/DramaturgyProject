@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f5a9267625d0ed44ea91022c80a17f86
+guid: c3854058255af82438faf0d711c42c0d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,127 +117,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Almac\xE9n(objetosSuperiores)_0"
+      name: ConjuntoObjetos_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 56
-        width: 51
-        height: 62
-      alignment: 9
-      pivot: {x: 0.482411, y: -0.46109408}
+        x: 10
+        y: 5
+        width: 509
+        height: 157
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d51a2eb19ab826d47a0568dd25006032
-      internalID: 11397209
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Almac\xE9n(objetosSuperiores)_1"
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 56
-        width: 51
-        height: 62
-      alignment: 9
-      pivot: {x: 0.49336213, y: -0.46954712}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83e1682cf3e3820488b0eaf6d83278b8
-      internalID: -2020497638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Almac\xE9n(objetosSuperiores)_2"
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 68
-        width: 50
-        height: 46
-      alignment: 9
-      pivot: {x: 0.49845642, y: -2.3536568}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5b5babf573782d4d803512fb06a9355
-      internalID: -2015518119
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Almac\xE9n(objetosSuperiores)_3"
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 69
-        width: 50
-        height: 46
-      alignment: 9
-      pivot: {x: 0.55167633, y: -0.76580554}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: feed77b3fbae51548bc9f1e6c3b6e1ee
-      internalID: -1973315848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Almac\xE9n(objetosSuperiores)_4"
-      rect:
-        serializedVersion: 2
-        x: 139
-        y: 1
-        width: 43
-        height: 49
-      alignment: 9
-      pivot: {x: 0.5183854, y: -0.44100404}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b2f7689cde53814a98dbd17bc0956f1
-      internalID: -793669192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Almac\xE9n(objetosSuperiores)_5"
-      rect:
-        serializedVersion: 2
-        x: 209
-        y: 15
-        width: 33
-        height: 35
-      alignment: 9
-      pivot: {x: 0.518243, y: -1.0113084}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46a04a94b2cb4d14dbef51d3c1caf8e7
-      internalID: 1147726250
+      spriteID: 631a1257d3b1d7c4a98317cf9f0a3cbc
+      internalID: 1628385248
       vertices: []
       indices: 
       edges: []
@@ -253,12 +148,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "Almac\xE9n(objetosSuperiores)_5": 1147726250
-      "Almac\xE9n(objetosSuperiores)_2": -2015518119
-      "Almac\xE9n(objetosSuperiores)_4": -793669192
-      "Almac\xE9n(objetosSuperiores)_1": -2020497638
-      "Almac\xE9n(objetosSuperiores)_3": -1973315848
-      "Almac\xE9n(objetosSuperiores)_0": 11397209
+      ConjuntoObjetos_0: 1628385248
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

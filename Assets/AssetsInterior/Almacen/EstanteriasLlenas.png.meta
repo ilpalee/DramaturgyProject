@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f5a9267625d0ed44ea91022c80a17f86
+guid: 3393a46cdb5a8a04483f3da4b2b97893
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,127 +117,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Almac\xE9n(objetosSuperiores)_0"
+      name: EstanteriasLlenas_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 56
-        width: 51
-        height: 62
+        x: 27
+        y: 169
+        width: 82
+        height: 151
       alignment: 9
-      pivot: {x: 0.482411, y: -0.46109408}
+      pivot: {x: 0.5, y: 0.07}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d51a2eb19ab826d47a0568dd25006032
-      internalID: 11397209
+      spriteID: dc4c79c833212db4b97b4fccd11c64fb
+      internalID: 1858857832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Almac\xE9n(objetosSuperiores)_1"
+      name: EstanteriasLlenas_1
       rect:
         serializedVersion: 2
-        x: 65
-        y: 56
-        width: 51
-        height: 62
+        x: 148
+        y: 169
+        width: 82
+        height: 131
       alignment: 9
-      pivot: {x: 0.49336213, y: -0.46954712}
+      pivot: {x: 0.5, y: 0.07}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83e1682cf3e3820488b0eaf6d83278b8
-      internalID: -2020497638
+      spriteID: 3735302c56dfbff4da22c07da336d06d
+      internalID: 1262776385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Almac\xE9n(objetosSuperiores)_2"
+      name: EstanteriasLlenas_2
       rect:
         serializedVersion: 2
-        x: 136
-        y: 68
-        width: 50
-        height: 46
+        x: 269
+        y: 168
+        width: 82
+        height: 131
       alignment: 9
-      pivot: {x: 0.49845642, y: -2.3536568}
+      pivot: {x: 0.5, y: 0.07}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5b5babf573782d4d803512fb06a9355
-      internalID: -2015518119
+      spriteID: 42b29a86c8d555249978dc05b80c1796
+      internalID: -858809242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Almac\xE9n(objetosSuperiores)_3"
+      name: EstanteriasLlenas_3
       rect:
         serializedVersion: 2
-        x: 198
-        y: 69
-        width: 50
-        height: 46
+        x: 390
+        y: 168
+        width: 82
+        height: 131
       alignment: 9
-      pivot: {x: 0.55167633, y: -0.76580554}
+      pivot: {x: 0.5, y: 0.07}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: feed77b3fbae51548bc9f1e6c3b6e1ee
-      internalID: -1973315848
+      spriteID: b549043f8b9cdac41847158a4348947b
+      internalID: 450262790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Almac\xE9n(objetosSuperiores)_4"
+      name: EstanteriasLlenas_4
       rect:
         serializedVersion: 2
-        x: 139
-        y: 1
-        width: 43
-        height: 49
+        x: 511
+        y: 167
+        width: 82
+        height: 131
       alignment: 9
-      pivot: {x: 0.5183854, y: -0.44100404}
+      pivot: {x: 0.5, y: 0.07}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b2f7689cde53814a98dbd17bc0956f1
-      internalID: -793669192
+      spriteID: 7bf195626c00e824fa77b353aaa8bc2c
+      internalID: 843727460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Almac\xE9n(objetosSuperiores)_5"
+      name: EstanteriasLlenas_5
       rect:
         serializedVersion: 2
-        x: 209
-        y: 15
-        width: 33
-        height: 35
+        x: 632
+        y: 167
+        width: 82
+        height: 131
       alignment: 9
-      pivot: {x: 0.518243, y: -1.0113084}
+      pivot: {x: 0.5, y: 0.07}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46a04a94b2cb4d14dbef51d3c1caf8e7
-      internalID: 1147726250
+      spriteID: 85f192f0e2007f64d951d349a30bc3eb
+      internalID: -206742691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstanteriasLlenas_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 10
+        width: 81
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d8d62ce754d26449c2aa6cfc639dba
+      internalID: -148613333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstanteriasLlenas_7
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 10
+        width: 81
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8b3122d105e2f41b76fb48ee754668
+      internalID: 337095367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstanteriasLlenas_8
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 10
+        width: 81
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c95fb4b389ad2449af3eaaf4cd73607
+      internalID: -551254179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstanteriasLlenas_9
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 11
+        width: 82
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cfdcef4a23e5942947e0929c269f3c
+      internalID: 13009461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstanteriasLlenas_10
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 10
+        width: 82
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e97dea9b4701c438b0730f3f77c2a9
+      internalID: 1544196409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstanteriasLlenas_11
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 10
+        width: 82
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da88aadbcc9e394a83bc95dd293e5c8
+      internalID: -196894359
       vertices: []
       indices: 
       edges: []
@@ -253,12 +379,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "Almac\xE9n(objetosSuperiores)_5": 1147726250
-      "Almac\xE9n(objetosSuperiores)_2": -2015518119
-      "Almac\xE9n(objetosSuperiores)_4": -793669192
-      "Almac\xE9n(objetosSuperiores)_1": -2020497638
-      "Almac\xE9n(objetosSuperiores)_3": -1973315848
-      "Almac\xE9n(objetosSuperiores)_0": 11397209
+      EstanteriasLlenas_4: 843727460
+      EstanteriasLlenas_5: -206742691
+      EstanteriasLlenas_10: 1544196409
+      EstanteriasLlenas_8: -551254179
+      EstanteriasLlenas_11: -196894359
+      EstanteriasLlenas_6: -148613333
+      EstanteriasLlenas_9: 13009461
+      EstanteriasLlenas_3: 450262790
+      EstanteriasLlenas_2: -858809242
+      EstanteriasLlenas_7: 337095367
+      EstanteriasLlenas_0: 1858857832
+      EstanteriasLlenas_1: 1262776385
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
