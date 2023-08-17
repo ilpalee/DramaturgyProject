@@ -6889,7 +6889,7 @@ GameObject:
   - component: {fileID: 250823708}
   m_Layer: 0
   m_Name: ColliderPuerta
-  m_TagString: Puerta
+  m_TagString: PuertaExterior
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
