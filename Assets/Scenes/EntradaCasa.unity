@@ -12186,6 +12186,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TriggerTP
       objectReference: {fileID: 0}
+    - target: {fileID: 5046961072464993885, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
 --- !u!4 &1983713950 stripped
