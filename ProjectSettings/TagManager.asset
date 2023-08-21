@@ -6,7 +6,6 @@ TagManager:
   tags:
   - Personaje1
   - FadeObject
-  - Dormitorio_1
   - PuertaExterior
   layers:
   - Default

@@ -267,12 +267,12 @@ TextureImporter:
       name: "Ba\xF1o(Objetos)_7"
       rect:
         serializedVersion: 2
-        x: 13
-        y: 12
-        width: 149
-        height: 82
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 14
+        y: 11
+        width: 146
+        height: 64
+      alignment: 9
+      pivot: {x: 0.49910137, y: 0.010056518}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
