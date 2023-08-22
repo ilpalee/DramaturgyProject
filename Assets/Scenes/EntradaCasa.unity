@@ -621,7 +621,7 @@ Transform:
   - {fileID: 165722965}
   - {fileID: 150901576}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &105287756
 GameObject:
@@ -2720,7 +2720,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -1919119499, guid: 1c19abb0e005c38498d882f63d04b04b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3121,6 +3121,8 @@ GameObject:
   m_Component:
   - component: {fileID: 425578773}
   - component: {fileID: 425578772}
+  - component: {fileID: 425578774}
+  - component: {fileID: 425578775}
   m_Layer: 0
   m_Name: "Ba\xF1o(Layer0)"
   m_TagString: Untagged
@@ -3179,7 +3181,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 1
+  m_SpriteSortPoint: 0
 --- !u!4 &425578773
 Transform:
   m_ObjectHideFlags: 0
@@ -3195,6 +3197,60 @@ Transform:
   m_Father: {fileID: 888754628}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &425578774
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425578771}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 8.618944}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 11.291667, y: 10.583333}
+    newSize: {x: 11.291667, y: 10.583333}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11.291667, y: 3.9287758}
+  m_EdgeRadius: 0
+--- !u!68 &425578775
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425578771}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -5.3850417, y: 6.651812}
+  - {x: -5.379078, y: 0.878067}
+  - {x: -0.59620285, y: 0.8716583}
+  - {x: -0.5950775, y: 0.0024261475}
+  - {x: 0.44744873, y: -0.0009689331}
+  - {x: 0.4495411, y: 0.87550354}
+  - {x: 5.369528, y: 0.87706757}
+  - {x: 5.377851, y: 6.656428}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &425753384
 GameObject:
   m_ObjectHideFlags: 0
@@ -6155,37 +6211,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c3952e455dea8a4382d5f8612227604, type: 3}
---- !u!1 &799706267
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 799706268}
-  m_Layer: 0
-  m_Name: prueba
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &799706268
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 799706267}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.26535, y: 74.49354, z: -0.10953326}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &810697847 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2034977369342988741, guid: cabd3a219261980438450a5cb66c7ab4, type: 3}
@@ -6523,6 +6548,8 @@ GameObject:
   m_Component:
   - component: {fileID: 851189475}
   - component: {fileID: 851189474}
+  - component: {fileID: 851189476}
+  - component: {fileID: 851189477}
   m_Layer: 0
   m_Name: Dormitorio2(Layer0)
   m_TagString: Untagged
@@ -6597,6 +6624,60 @@ Transform:
   m_Father: {fileID: 978792201}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &851189476
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851189473}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 4.3148317}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 13.375, y: 12.583333}
+    newSize: {x: 13.375, y: 12.583333}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 13.375, y: 3.9536686}
+  m_EdgeRadius: 0
+--- !u!68 &851189477
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851189473}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -6.28}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -6.418354, y: 8.619341}
+  - {x: -6.4241457, y: 0.88194275}
+  - {x: -0.87458134, y: 0.871048}
+  - {x: -0.87422466, y: -0.0041503906}
+  - {x: 0.19554901, y: -0.009788513}
+  - {x: 0.19254112, y: 0.86437225}
+  - {x: 6.4285126, y: 0.8653412}
+  - {x: 6.421714, y: 8.630335}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1001 &866947423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7749,6 +7830,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1028357501}
   - component: {fileID: 1028357500}
+  - component: {fileID: 1028357502}
   m_Layer: 0
   m_Name: "Ba\xF1o2(Objetos)_4"
   m_TagString: Untagged
@@ -7823,6 +7905,22 @@ Transform:
   m_Father: {fileID: 2035456207}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1028357502
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028357499}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0061330795, y: 0.9}
+  m_Size: {x: 1.175417, y: 1.175417}
+  m_Direction: 0
 --- !u!1 &1045831910
 GameObject:
   m_ObjectHideFlags: 0
@@ -9069,6 +9167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1236521090}
   - component: {fileID: 1236521089}
+  - component: {fileID: 1236521091}
   m_Layer: 0
   m_Name: "Ba\xF1o2(Objetos)_2"
   m_TagString: Untagged
@@ -9143,6 +9242,22 @@ Transform:
   m_Father: {fileID: 2035456207}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1236521091
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236521088}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0029723034, y: 0.5150363}
+  m_Size: {x: 1.442221, y: 0.34613803}
+  m_Direction: 1
 --- !u!1001 &1238435883
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9420,6 +9535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1282268865}
   - component: {fileID: 1282268864}
+  - component: {fileID: 1282268866}
   m_Layer: 0
   m_Name: Dormitorio2(Objetos)_1
   m_TagString: Untagged
@@ -9494,6 +9610,22 @@ Transform:
   m_Father: {fileID: 884493332}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1282268866
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282268863}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.002972311, y: 0.45082182}
+  m_Size: {x: 1.4422208, y: 0.30024722}
+  m_Direction: 1
 --- !u!1001 &1285721525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9690,6 +9822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1294500157}
   - component: {fileID: 1294500156}
+  - component: {fileID: 1294500158}
   m_Layer: 0
   m_Name: Dormitorio2(Objetos)_3
   m_TagString: Untagged
@@ -9764,6 +9897,22 @@ Transform:
   m_Father: {fileID: 884493332}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1294500158
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294500155}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.015399633, y: 0.46620592}
+  m_Size: {x: 1.6314108, y: 0.31333157}
+  m_Direction: 1
 --- !u!1001 &1296940008
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10274,6 +10423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1405057469}
   - component: {fileID: 1405057468}
+  - component: {fileID: 1405057470}
   m_Layer: 0
   m_Name: "Ba\xF1o2(Objetos)_0"
   m_TagString: Untagged
@@ -10341,13 +10491,29 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1405057467}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.53, y: -0.568, z: 0.043223962}
+  m_LocalPosition: {x: -0.53, y: -0.515, z: 0.043223962}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2035456207}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1405057470
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405057467}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0000019073486, y: 0.79}
+  m_Size: {x: 0.93047714, y: 0.93047714}
+  m_Direction: 0
 --- !u!1 &1411440128
 GameObject:
   m_ObjectHideFlags: 0
@@ -10567,6 +10733,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1439618783}
   - component: {fileID: 1439618782}
+  - component: {fileID: 1439618784}
   m_Layer: 0
   m_Name: "Ba\xF1o2(Objetos)_7"
   m_TagString: Untagged
@@ -10641,6 +10808,22 @@ Transform:
   m_Father: {fileID: 2035456207}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1439618784
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439618781}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.024589239, y: 0.48}
+  m_Size: {x: 3.085381, y: 0.93992656}
+  m_Direction: 1
 --- !u!1001 &1466852755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11068,7 +11251,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561216439}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.44023895, y: 1.5799713, z: -2.316828}
+  m_LocalPosition: {x: -0.457, y: -5.3, z: -2.316828}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11150,87 +11333,6 @@ MonoBehaviour:
   EnPuerta: 0
   puntoTeleportacion: {fileID: 1288170946}
   PlayerTP_Script: {fileID: 0}
---- !u!1001 &1566809119
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1031847765799350988, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 1031847765799350988, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 11.79
-      objectReference: {fileID: 0}
-    - target: {fileID: 1031847765799350988, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 110.42
-      objectReference: {fileID: 0}
-    - target: {fileID: 1031847765799350988, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1031847765799350988, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1031847765799350988, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1031847765799350988, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1031847765799350988, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1031847765799350988, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1031847765799350988, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1031847765799350988, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1429700055668446318, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 1429700055668446318, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -27.71
-      objectReference: {fileID: 0}
-    - target: {fileID: 1677412672556819838, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_Name
-      value: DatosEntreEscenas
-      objectReference: {fileID: 0}
-    - target: {fileID: 1878097372563012742, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1878097372563012742, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4987921225702441956, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4987921225702441956, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
 --- !u!1 &1567197949
 GameObject:
   m_ObjectHideFlags: 0
@@ -12504,6 +12606,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1771543644}
   - component: {fileID: 1771543643}
+  - component: {fileID: 1771543645}
   m_Layer: 0
   m_Name: Dormitorio2(Objetos)_4
   m_TagString: Untagged
@@ -12578,6 +12681,32 @@ Transform:
   m_Father: {fileID: 884493332}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1771543645
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771543642}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.004778385, y: 1.272152}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1.625, y: 3.0208333}
+    newSize: {x: 1.625, y: 3.0208333}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.4938879, y: 1.7356949}
+  m_EdgeRadius: 0
 --- !u!1 &1786193164
 GameObject:
   m_ObjectHideFlags: 0
@@ -12981,7 +13110,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1830877442}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.9039955, y: -6.82, z: 0.043223962}
+  m_LocalPosition: {x: 2.9177, y: -6.805, z: 0.043223962}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14538,7 +14667,7 @@ Transform:
   - {fileID: 1908108602}
   - {fileID: 210676726}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2013407096 stripped
 Transform:
@@ -15331,6 +15460,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2115488166}
   - component: {fileID: 2115488165}
+  - component: {fileID: 2115488167}
   m_Layer: 0
   m_Name: Dormitorio2(Objetos)_2
   m_TagString: Untagged
@@ -15405,6 +15535,32 @@ Transform:
   m_Father: {fileID: 884493332}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2115488167
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115488164}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.004778385, y: 1.272152}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1.5416666, y: 3}
+    newSize: {x: 1.5416666, y: 3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.4938879, y: 1.7356949}
+  m_EdgeRadius: 0
 --- !u!1 &2120961769
 GameObject:
   m_ObjectHideFlags: 0
@@ -15687,6 +15843,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2135892242}
   - component: {fileID: 2135892241}
+  - component: {fileID: 2135892243}
   m_Layer: 0
   m_Name: Dormitorio2(Objetos)_0
   m_TagString: Untagged
@@ -15761,6 +15918,32 @@ Transform:
   m_Father: {fileID: 884493332}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2135892243
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135892240}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.004778385, y: 1.272152}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1.625, y: 3.0208333}
+    newSize: {x: 1.625, y: 3.0208333}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.4938879, y: 1.7356949}
+  m_EdgeRadius: 0
 --- !u!1001 &1618933247172911143
 PrefabInstance:
   m_ObjectHideFlags: 0
