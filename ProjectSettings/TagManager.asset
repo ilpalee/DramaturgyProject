@@ -7,6 +7,8 @@ TagManager:
   - Personaje1
   - FadeObject
   - PuertaExterior
+  - TriggerLluvia
+  - TriggerLluviaInterior
   layers:
   - Default
   - TransparentFX

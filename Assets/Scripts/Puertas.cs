@@ -10,9 +10,11 @@ public class Puertas : MonoBehaviour
     public Transform puntoTeleportacion;
     public PlayerTP PlayerTP_Script; 
     private Collider2D playerCollider;
+    public Player_1_Controller PlayerControllerScript;
 
     void Start()
     {
+        PlayerControllerScript = FindObjectOfType<Player_1_Controller>();
         PlayerTP_Script = FindObjectOfType<PlayerTP>();
         FadeEffect = GameObject.FindGameObjectWithTag("FadeObject");
         playerCollider = GameObject.FindGameObjectWithTag("Personaje1").GetComponent<Collider2D>();
@@ -24,6 +26,7 @@ public class Puertas : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && EnPuerta == true)
         {
+           PlayerControllerScript.Puerta.PlayOneShot(PlayerControllerScript.Puerta.clip);
            PlayerTP_Script.CorrutinaPausa();
            FadeEffect.SetActive(true);
            playerCollider.transform.position = puntoTeleportacion.position;

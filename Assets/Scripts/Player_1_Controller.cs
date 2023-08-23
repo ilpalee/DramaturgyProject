@@ -11,10 +11,15 @@ public class Player_1_Controller : MonoBehaviour
     public Vector2 movement;
     public Animator anim;
     public bool MovementInput = true;
-
+    public bool EstaCaminando = false;
     string LastDirection = "";
 
+    public AudioClip clipLluviaInterior;
     
+    
+    public AudioSource Pasos;
+    public AudioSource Ambiente;
+    public AudioSource Puerta;
 
     private MovementAxis axis = MovementAxis.Horizontal;
 
@@ -44,6 +49,19 @@ public class Player_1_Controller : MonoBehaviour
          var y = Input.GetAxisRaw("Vertical");
 
          movement = new Vector2(x, y);
+         EstaCaminando = movement != Vector2.zero;
+
+         if (ReturnEstaCaminando())
+         {
+             if (!Pasos.isPlaying)
+            {
+                Pasos.Play();
+            }
+         }
+         else
+         {
+            Pasos.Stop();
+         }
 
              // SE EVITA EL MOVIMIENTO DIAGONAL Y SE ESTABLECEN LAS ANIMACIONES PARA CADA MOVIMIENTO
 
@@ -98,8 +116,13 @@ public class Player_1_Controller : MonoBehaviour
             {
                   anim.Play("PJ1_Idle_Front");
             }
-         }
+         }     
         }
+      }
+
+      public bool ReturnEstaCaminando()
+      {
+            return EstaCaminando;
       }
 
       public void FixedUpdate()
@@ -116,6 +139,22 @@ public class Player_1_Controller : MonoBehaviour
             anim.enabled = false;
          }
          
+      }
+
+      private void OnTriggerEnter2D(Collider2D other)
+      {
+        if(other.tag == "TriggerLluvia")
+        {
+            Ambiente.Play();
+        }
+
+        if(other.tag == "TriggerLluviaInterior")
+        {
+            Ambiente.clip = clipLluviaInterior;
+            Ambiente.Play();
+        }
+
+        
       }
 
       

@@ -8,11 +8,12 @@ public class CambioEscenas : MonoBehaviour
 {
 
      private bool EnPuertaExterior = false;
+     public Player_1_Controller PlayerControllerScript;
+     public AudioClip clipPuertaExterior;
      
-    
     void Start()
     {
-        
+        PlayerControllerScript = FindObjectOfType<Player_1_Controller>();
     }
 
     // Si el personaje se encuentra en el collider de la puerta (bool) y presiona la tecla determinada, se carga la escena e inica la funcion de la corrutina (pausa del juego).
@@ -20,6 +21,7 @@ public class CambioEscenas : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && EnPuertaExterior == true)
         {
+           PlayerControllerScript.Puerta.PlayOneShot(clipPuertaExterior);
            ChangeScene();
            SceneManager.LoadScene("EntradaCasa");
            EnPuertaExterior = false;
