@@ -1,12 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 public class Dialogos : MonoBehaviour
 {
-
     public GameObject PanelDialogo;
     public TextMeshProUGUI TextoDialogo;
     public string[] Dialogo;
@@ -15,7 +13,7 @@ public class Dialogos : MonoBehaviour
 
     public float Espaciado;
     public bool EnRango;
-
+    
 
 
     // Update is called once per frame
