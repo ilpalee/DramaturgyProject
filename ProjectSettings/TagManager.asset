@@ -9,6 +9,8 @@ TagManager:
   - PuertaExterior
   - TriggerLluvia
   - TriggerLluviaInterior
+  - Panel_Dialogo
+  - Texto_Dialogo
   layers:
   - Default
   - TransparentFX
