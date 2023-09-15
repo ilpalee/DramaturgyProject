@@ -15634,7 +15634,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &535101447
 Transform:
   m_ObjectHideFlags: 0
@@ -60072,6 +60072,14 @@ PrefabInstance:
       propertyPath: m_text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 231621107, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: cd5ae3e0cef0825468525d5d4c2c1c8d, type: 2}
+    - target: {fileID: 231621107, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -5715860372569331172, guid: cd5ae3e0cef0825468525d5d4c2c1c8d, type: 2}
     - target: {fileID: 237259418, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -108.99997
@@ -60084,6 +60092,18 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Texto_Dialogo
       objectReference: {fileID: 0}
+    - target: {fileID: 569136352, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 569136352, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8de43b42c7138f24fbbb443e28df0687, type: 2}
+    - target: {fileID: 569136352, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6738449326526830607, guid: 8de43b42c7138f24fbbb443e28df0687, type: 2}
     - target: {fileID: 582780922, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -94

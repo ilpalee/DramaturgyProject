@@ -18,7 +18,7 @@ public class Dialogos : MonoBehaviour
     private bool Dialogando;
     private int lineIndex;
     public float TiempoTipeo; 
-
+    
 
     void Start()
     {

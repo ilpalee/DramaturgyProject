@@ -23,6 +23,7 @@ public class Player_1_Controller : MonoBehaviour
 
     private MovementAxis axis = MovementAxis.Horizontal;
 
+
       private enum MovementAxis
       {
          Vertical, Horizontal
