@@ -15634,7 +15634,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &535101447
 Transform:
   m_ObjectHideFlags: 0
@@ -60062,7 +60062,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 108849083, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_Text
-      value: Ya te habras dado cuenta de que intentar olvidarlo todo no funciona.
+      value: "Has intentado olvidarlo todo, pero as\xED no fuciona.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 108849083, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_Color.a
@@ -60104,6 +60104,10 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 6738449326526830607, guid: 8de43b42c7138f24fbbb443e28df0687, type: 2}
+    - target: {fileID: 582780920, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_Text
+      value: Y tampoco va contigo.
+      objectReference: {fileID: 0}
     - target: {fileID: 582780922, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -94
@@ -60122,11 +60126,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 649760923, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_Text
-      value: Solo hay dos opciones.
+      value: "Todo tiene un l\xEDmite."
       objectReference: {fileID: 0}
     - target: {fileID: 1315395902, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -108.99997
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315395904, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_Text
+      value: "\xBFPor qu\xE9 entonces no intentar otro camino?."
       objectReference: {fileID: 0}
     - target: {fileID: 1316322141, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -60139,6 +60147,10 @@ PrefabInstance:
     - target: {fileID: 1604061923, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -94.000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604061925, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_Text
+      value: "Ya deber\xEDas saber que al final..."
       objectReference: {fileID: 0}
     - target: {fileID: 2059581595, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_IsActive
