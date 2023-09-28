@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: 1ae38419fdfaa904698d719034b02051
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Objetos_Libreria_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 86
+        width: 26
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7ad94cda2e3764a86a7fd53f3eb90e
+      internalID: 1962567929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos_Libreria_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 110
+        width: 107
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c626f264b12d2ed44b957017f813ddac
+      internalID: 568478668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos_Libreria_2
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 90
+        width: 24
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: -2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc88d9afee59bad439803d883446ace2
+      internalID: -82132763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos_Libreria_3
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 55
+        width: 29
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: -2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3275730fac463054cb4b9cac839698cd
+      internalID: 133180073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos_Libreria_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 40
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: -2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4450a891bc560b4f94becddb7cbb737
+      internalID: -988517805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos_Libreria_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 63
+        width: 26
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: -1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1b449f87d590d448269dbf41391cdf
+      internalID: 1173883978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos_Libreria_6
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 56
+        width: 8
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: -1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c51ebbc2b4e3a42ae8c9d741504308
+      internalID: 545657399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos_Libreria_7
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 56
+        width: 8
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: -1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bad56adceff6c4468d27df163d74344
+      internalID: -726637868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos_Libreria_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 19
+        width: 8
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: -1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72e9f94526476d409c349da96468a11
+      internalID: 1338536389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos_Libreria_9
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 19
+        width: 8
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: -1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fb683416716014a98e83e435d6b53c
+      internalID: 2111858526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos_Libreria_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 19
+        width: 8
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: -1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e0b8d52bf11cd42a968b1dd04efca6
+      internalID: 41414485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos_Libreria_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 19
+        width: 8
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: -1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ba2e77dedbd2e4c974b514dd2bc63e
+      internalID: -511420895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos_Libreria_12
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 32
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbc2bec4354eb34eade1521a6d2ecd0
+      internalID: -1942175613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos_Libreria_13
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 32
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45541ea0dac29de4699a95073ae9393a
+      internalID: -343780924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos_Libreria_14
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 15
+        width: 61
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d95b47b76d9d54ab06cdf825c75506
+      internalID: -1038486054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos_Libreria_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 4
+        width: 24
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: -2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a22157d46d0e0244baf433bfcec83da
+      internalID: -1432343234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos_Libreria_16
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 4
+        width: 24
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: -2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e4781fc53011b49a1095311f304bc3
+      internalID: 453810631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Objetos_Libreria_2: -82132763
+      Objetos_Libreria_7: -726637868
+      Objetos_Libreria_16: 453810631
+      Objetos_Libreria_15: -1432343234
+      Objetos_Libreria_14: -1038486054
+      Objetos_Libreria_9: 2111858526
+      Objetos_Libreria_4: -988517805
+      Objetos_Libreria_12: -1942175613
+      Objetos_Libreria_6: 545657399
+      Objetos_Libreria_8: 1338536389
+      Objetos_Libreria_1: 568478668
+      Objetos_Libreria_10: 41414485
+      Objetos_Libreria_3: 133180073
+      Objetos_Libreria_0: 1962567929
+      Objetos_Libreria_5: 1173883978
+      Objetos_Libreria_11: -511420895
+      Objetos_Libreria_13: -343780924
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
