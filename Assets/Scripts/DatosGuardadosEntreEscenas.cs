@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DatosGuardadosEntreEscenas : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class DatosGuardadosEntreEscenas : MonoBehaviour
 
     public static DatosGuardadosEntreEscenas Instancia;
 
-    // GameObject que conserva los datos (dentro de este) entre las escenas, eliminando duplicados.
+    private bool destruirEnSiguienteCarga = false;
 
     void Awake()
     {
@@ -27,14 +28,19 @@ public class DatosGuardadosEntreEscenas : MonoBehaviour
     }
 
     
-    void Start()
+   // Llamar a esta funcion para destruir el objeto en la escena del menu principal
+    public void DestruirEnMenuPrincipal()
     {
-        
+        SceneManager.sceneLoaded += HandleSceneLoaded;
+        destruirEnSiguienteCarga = true;
     }
 
-    
-    void Update()
+    private void HandleSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        
+        if (destruirEnSiguienteCarga && scene.name == "MenuPrincipal") 
+        {
+            SceneManager.sceneLoaded -= HandleSceneLoaded;
+            Destroy(gameObject);
+        }
     }
 }

@@ -36,7 +36,7 @@ public class Player_1_Controller : MonoBehaviour
 
       private void Update()
       {
-            // CONFIGURACION DE MOVIMIENTO BASE, HORIZONTAL Y VERTICAL, TECLAS: W,A,S,D / FLECHAS
+            
         if (MovementInput == true)
         {
 
