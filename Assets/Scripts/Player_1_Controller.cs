@@ -32,12 +32,13 @@ public class Player_1_Controller : MonoBehaviour
       private void Start()
       {
          movement = Vector3.zero;
+         SceneManager.sceneLoaded += OnSceneLoaded;
       }
 
       private void Update()
       {
             
-        if (MovementInput == true)
+        if (MovementInput == true && !MenuDePausa.EnPausa)
         {
 
          if (Input.GetButtonDown("Horizontal")) axis = MovementAxis.Horizontal;
@@ -158,10 +159,13 @@ public class Player_1_Controller : MonoBehaviour
         
       }
 
-      
-      
-
-
+      private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+      {
+        if (scene.name == "Casa2")
+        {
+            Ambiente.Stop();
+        }
+      }
 
       
 }

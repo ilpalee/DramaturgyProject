@@ -8,7 +8,11 @@ public class MenuDePausa : MonoBehaviour
     public DatosGuardadosEntreEscenas DatosGuardadosScript;
 
     public GameObject PanelPausa;
-    public bool EnPausa;
+    public static bool EnPausa;
+
+    public AudioSource Audio1;
+    public AudioSource Audio2;
+    public AudioSource Audio3;
 
     void Start()
     {
@@ -19,7 +23,7 @@ public class MenuDePausa : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.P))
         {
             if(EnPausa)
             {
@@ -34,6 +38,9 @@ public class MenuDePausa : MonoBehaviour
 
     public void PausarJuego()
     {
+        Audio1.Pause();
+        Audio2.Pause();
+        Audio3.Pause();
         PanelPausa.SetActive(true);
         Time.timeScale = 0f;
         EnPausa = true;
@@ -41,6 +48,9 @@ public class MenuDePausa : MonoBehaviour
 
     public void ReanudarJuego()
     {
+        Audio1.UnPause();
+        Audio2.UnPause();
+        Audio3.UnPause();
         PanelPausa.SetActive(false);
         Time.timeScale = 1f;
         EnPausa = false;

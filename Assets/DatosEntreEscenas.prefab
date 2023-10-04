@@ -1297,6 +1297,7 @@ GameObject:
   - component: {fileID: 1401368617}
   - component: {fileID: 1401368621}
   - component: {fileID: 1401368618}
+  - component: {fileID: 7218521549621926930}
   - component: {fileID: 1401368622}
   - component: {fileID: 1982642981}
   m_Layer: 0
@@ -1416,6 +1417,23 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7218521549621926930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401368616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 120a06f214fb2b642a493f7df21c3225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DatosGuardadosScript: {fileID: 0}
+  PanelPausa: {fileID: 0}
+  Audio1: {fileID: 0}
+  Audio2: {fileID: 0}
+  Audio3: {fileID: 0}
 --- !u!81 &1401368622
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1796,6 +1814,8 @@ GameObject:
   - component: {fileID: 7381236254281477031}
   - component: {fileID: 4987921225702441956}
   - component: {fileID: 3650841274648834254}
+  - component: {fileID: 8227786166904079861}
+  - component: {fileID: 22403731043368576}
   - component: {fileID: 892545747529259663}
   - component: {fileID: 6092209231447574911}
   - component: {fileID: 1181289585}
@@ -1943,6 +1963,35 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &8227786166904079861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413502929777521125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430d6f3977f9f2945a6b18e125d5b872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &22403731043368576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413502929777521125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 120a06f214fb2b642a493f7df21c3225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DatosGuardadosScript: {fileID: 0}
+  PanelPausa: {fileID: 0}
+  Audio1: {fileID: 0}
+  Audio2: {fileID: 0}
+  Audio3: {fileID: 0}
 --- !u!114 &892545747529259663
 MonoBehaviour:
   m_ObjectHideFlags: 0

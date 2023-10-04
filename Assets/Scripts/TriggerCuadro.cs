@@ -10,10 +10,15 @@ public class TriggerCuadro : MonoBehaviour
 
      public float TiempoEjecucion;
 
+     public AudioSource SonidoCuadro;
+
+     private BoxCollider2D boxCollider;  
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        DontDestroyOnLoad(gameObject);
+        boxCollider = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
@@ -26,6 +31,7 @@ public class TriggerCuadro : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Personaje1"))
         {
+            SonidoCuadro.Play();
             anim.SetBool("BoolAnimCuadro", true);
             Invoke("DespuesDelTiempo", TiempoEjecucion);
         }
@@ -34,6 +40,7 @@ public class TriggerCuadro : MonoBehaviour
     private void DespuesDelTiempo()
     {
         SceneManager.LoadScene("Casa2");
+        boxCollider.enabled = false;
     }
     
 

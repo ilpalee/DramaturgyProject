@@ -11,6 +11,7 @@ TagManager:
   - TriggerLluviaInterior
   - Panel_Dialogo
   - Texto_Dialogo
+  - Item
   layers:
   - Default
   - TransparentFX
