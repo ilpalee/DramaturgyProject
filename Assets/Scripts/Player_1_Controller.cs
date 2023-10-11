@@ -37,8 +37,8 @@ public class Player_1_Controller : MonoBehaviour
 
       private void Update()
       {
-            
-        if (MovementInput == true && !MenuDePausa.EnPausa)
+            // !Inventario.Activar_inv // !MenuDePausa.EnPausa
+        if (MovementInput == true && !Inventario.Activar_inv && !MenuDePausa.EnPausa)
         {
 
          if (Input.GetButtonDown("Horizontal")) axis = MovementAxis.Horizontal;
