@@ -12,6 +12,8 @@ TagManager:
   - Panel_Dialogo
   - Texto_Dialogo
   - Item
+  - Estanteria
+  - Referencia
   layers:
   - Default
   - TransparentFX

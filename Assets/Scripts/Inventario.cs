@@ -22,8 +22,21 @@ public class Inventario : MonoBehaviour
 
     public GameObject Panel_Recoger;
     public float Tiempo_Panel_Recoger;
+    public GameObject Panel_LibroIncorrecto;
 
     private GameObject itemToPickUp; // Almacena el objeto que este dentro del rango de colision.
+
+    private Sprite spriteSeleccionado; 
+
+    private Estanteria estanteriaActual; 
+
+    public AudioSource LibroCorrecto;
+
+    private int ContadorLibros;
+
+    private bool Flag = false;
+
+    public static bool Libreria_Completo;
 
     void Start()
     {
@@ -35,7 +48,13 @@ public class Inventario : MonoBehaviour
     {
         Navegar();
 
-        if (Input.GetKeyDown(KeyCode.I) && !playerController.EstaCaminando)
+        if (!Flag && ContadorLibros == 5)
+        {
+            Libreria_Completo = true;
+            Flag = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.I) && !playerController.EstaCaminando || Input.GetKeyDown(KeyCode.Space) && Estanteria.EnEstanteria == true && !playerController.EstaCaminando)
         {
             Activar_inv = !Activar_inv;
             
@@ -65,6 +84,12 @@ public class Inventario : MonoBehaviour
         {
             itemToPickUp = coll.gameObject; // Almacena el objeto dentro del rango de colision.
         }
+
+        if (coll.CompareTag("Estanteria"))
+        {
+            estanteriaActual = coll.GetComponent<Estanteria>(); 
+        }
+
     }
 
     public void OnTriggerExit2D(Collider2D coll)
@@ -73,6 +98,13 @@ public class Inventario : MonoBehaviour
         {
             itemToPickUp = null; // Borra la referencia al objeto cuando sale del rango de colision.
         }
+
+        if (coll.CompareTag("Referencia"))
+        {
+            estanteriaActual = null;
+        }
+
+
     }
 
     // Metodo para recoger un objeto y agregarlo al inventario.
@@ -98,6 +130,7 @@ public class Inventario : MonoBehaviour
     {
         yield return new WaitForSeconds(Tiempo_Panel_Recoger);
         Panel_Recoger.SetActive(false);
+        Panel_LibroIncorrecto.SetActive(false);
     }
 
     public void Navegar()
@@ -122,6 +155,7 @@ public class Inventario : MonoBehaviour
 
                 if (Input.GetKeyDown(KeyCode.Space) && Bag[ID].GetComponent<Image>().enabled == true)
                 {
+                    spriteSeleccionado = Bag[ID].GetComponent<Image>().sprite;
                     Fases_inv = 2;
                 }
 
@@ -173,8 +207,17 @@ public class Inventario : MonoBehaviour
                         Seleccion[0].sprite = Seleccion_Sprite[1];
                         Seleccion[1].sprite = Seleccion_Sprite[0];
 
-                        if (Input.GetKeyDown(KeyCode.Space)) 
+                        if (Input.GetKeyDown(KeyCode.Space) && estanteriaActual != null && spriteSeleccionado == estanteriaActual.spriteEnEstanteria)
                         {
+                            Bag[ID].GetComponent<Image>().enabled = false;
+                            LibroCorrecto.Play();
+                            ContadorLibros ++;
+                            Fases_inv = 0;
+                        }
+                        else if (Input.GetKeyDown(KeyCode.Space) && estanteriaActual != null && spriteSeleccionado != estanteriaActual.spriteEnEstanteria)
+                        {
+                            Panel_LibroIncorrecto.SetActive(true);
+                            StartCoroutine(DesactivarPanelRecoger());
                             Fases_inv = 0;
                         }
                         
