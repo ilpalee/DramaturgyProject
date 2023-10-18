@@ -21532,14 +21532,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1429700055668446318, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 115.12
-      objectReference: {fileID: 0}
-    - target: {fileID: 1429700055668446318, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.05
-      objectReference: {fileID: 0}
     - target: {fileID: 1677412672556819838, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_Name
       value: DatosEntreEscenas
@@ -21547,14 +21539,6 @@ PrefabInstance:
     - target: {fileID: 1677412672556819838, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7398331066259450647, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 115.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 7398331066259450647, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.52
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}

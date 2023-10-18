@@ -9,6 +9,11 @@ public class TriggerInfoLibros : MonoBehaviour
     private bool Trigger_Info;
     public GameObject Panel_Info_Libros;
     
+    void Awake()
+    {
+        Panel_Info_Libros = GameObject.Find("Cont_Panel_InfoLibros");
+    }
+
     void Start()
     {
         
@@ -19,7 +24,7 @@ public class TriggerInfoLibros : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && Trigger_Info == true)
         {
-            Panel_Info_Libros.SetActive(true);
+            Panel_Info_Libros.transform.Find("Panel").gameObject.SetActive(true);
         }
     }
 
@@ -37,7 +42,7 @@ public class TriggerInfoLibros : MonoBehaviour
         if (coll.CompareTag("Personaje1"))
         {
             Trigger_Info = false;
-            Panel_Info_Libros.SetActive(false);
+            Panel_Info_Libros.transform.Find("Panel").gameObject.SetActive(false);
         }
 
     }
