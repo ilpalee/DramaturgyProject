@@ -23,12 +23,17 @@ public class Inventario : MonoBehaviour
     public GameObject Panel_Recoger;
     public float Tiempo_Panel_Recoger;
     public GameObject Panel_LibroIncorrecto;
+    public GameObject Panel_RopaIncorrecta;
 
     private GameObject itemToPickUp; // Almacena el objeto que este dentro del rango de colision.
 
     private Sprite spriteSeleccionado; 
 
-    private Estanteria estanteriaActual; 
+    private Estanteria estanteriaActual;
+
+    private EspejoScript Script_Espejo; // test------------
+
+    private Maniqui_Script Script_Maniqui; // test -------------------
 
     public AudioSource LibroCorrecto;
 
@@ -54,7 +59,7 @@ public class Inventario : MonoBehaviour
             Flag = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.I) && !playerController.EstaCaminando || Input.GetKeyDown(KeyCode.Space) && Estanteria.EnEstanteria == true && !playerController.EstaCaminando)
+        if (Input.GetKeyDown(KeyCode.I) && !playerController.EstaCaminando || Input.GetKeyDown(KeyCode.Space) && Estanteria.EnEstanteria == true && !playerController.EstaCaminando || Input.GetKeyDown(KeyCode.Space) && Maniqui_Script.EnManiqui == true && !playerController.EstaCaminando || Input.GetKeyDown(KeyCode.Space) && EspejoScript.EnEspejo == true && !playerController.EstaCaminando)
         {
             Activar_inv = !Activar_inv;
             
@@ -90,6 +95,16 @@ public class Inventario : MonoBehaviour
             estanteriaActual = coll.GetComponent<Estanteria>(); 
         }
 
+        if (coll.CompareTag("Espejo"))
+        {
+            Script_Espejo = coll.GetComponent<EspejoScript>(); 
+        }
+
+        if (coll.CompareTag("Maniqui"))  // test ------------------------------
+        {
+            Script_Maniqui = coll.GetComponent<Maniqui_Script>(); 
+        }
+
     }
 
     public void OnTriggerExit2D(Collider2D coll)
@@ -102,6 +117,16 @@ public class Inventario : MonoBehaviour
         if (coll.CompareTag("Referencia"))
         {
             estanteriaActual = null;
+        }
+
+        if (coll.CompareTag("Referencia_Maniqui")) // test ------------------------
+        {
+            Script_Maniqui = null;
+        }
+
+        if (coll.CompareTag("Referencia_Espejo")) // test ------------------------
+        {
+            Script_Espejo = null;
         }
 
 
@@ -131,6 +156,7 @@ public class Inventario : MonoBehaviour
         yield return new WaitForSeconds(Tiempo_Panel_Recoger);
         Panel_Recoger.SetActive(false);
         Panel_LibroIncorrecto.SetActive(false);
+        Panel_RopaIncorrecta.SetActive(false);
     }
 
     public void Navegar()
@@ -220,6 +246,40 @@ public class Inventario : MonoBehaviour
                             StartCoroutine(DesactivarPanelRecoger());
                             Fases_inv = 0;
                         }
+
+                        if (Input.GetKeyDown(KeyCode.Space) && Script_Maniqui != null && spriteSeleccionado == Script_Maniqui.spriteManiqui_1) // test -------------------
+                        {
+                            Script_Maniqui.ActivarRopaSuperior();
+                            Bag[ID].GetComponent<Image>().enabled = false;
+                            Fases_inv = 0;
+
+                        }
+
+                        if (Input.GetKeyDown(KeyCode.Space) && Script_Maniqui != null && spriteSeleccionado == Script_Maniqui.spriteManiqui_2) // test ---------------
+                        {
+                            Script_Maniqui.ActivarRopaInferior();
+                            Bag[ID].GetComponent<Image>().enabled = false;
+                            Fases_inv = 0;
+
+                        }
+
+                        if (Input.GetKeyDown(KeyCode.Space) && Script_Maniqui != null && spriteSeleccionado != Script_Maniqui.spriteManiqui_1 && spriteSeleccionado != Script_Maniqui.spriteManiqui_2) // test -----------
+                        {
+                            Panel_RopaIncorrecta.SetActive(true);
+                            StartCoroutine(DesactivarPanelRecoger());
+                            Fases_inv = 0;
+                        }
+
+                        if (Input.GetKeyDown(KeyCode.Space) && Script_Espejo != null && spriteSeleccionado == Script_Espejo.spriteEnEspejo) // test -------------------
+                        {
+                            Debug.Log("Animacion");
+                            Bag[ID].GetComponent<Image>().enabled = false;
+                            Fases_inv = 0;
+
+                        }
+
+
+
                         
                         break;
 

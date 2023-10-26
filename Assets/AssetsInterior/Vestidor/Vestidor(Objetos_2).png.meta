@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7940021ecfdbc0c4ba9496d70b240135
+guid: e6a9187b29c159446b3f6af5e9901594
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,106 +117,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Objetos_0
+      name: Vestidor(Objetos_2)_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 43
-        width: 27
-        height: 25
-      alignment: 9
-      pivot: {x: 0.5, y: -2}
+        x: 5
+        y: 191
+        width: 270
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92dc8e3a5ac1e41428760c975752ff39
-      internalID: 995281215
+      spriteID: 54c07a1b0e375bc49b538d0b3acabe2e
+      internalID: -52797465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objetos_1
+      name: Vestidor(Objetos_2)_1
       rect:
         serializedVersion: 2
-        x: 42
-        y: 43
-        width: 24
-        height: 22
-      alignment: 9
-      pivot: {x: 0.5, y: -2}
+        x: 306
+        y: 35
+        width: 145
+        height: 201
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a781fc63ff1177645b86269229e5d37e
-      internalID: -1179177666
+      spriteID: a8411f2d63a52a243a9921f3a4d3225e
+      internalID: -541785455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objetos_2
+      name: Vestidor(Objetos_2)_2
       rect:
         serializedVersion: 2
-        x: 74
-        y: 22
-        width: 19
-        height: 35
-      alignment: 9
-      pivot: {x: 0.5, y: -1.3}
+        x: 5
+        y: 99
+        width: 270
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46ef6ce103d1ba140943780b1b99860e
-      internalID: 1865584069
+      spriteID: 5c370183bf959f944b5f2197da86d084
+      internalID: -162473373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objetos_3
+      name: Vestidor(Objetos_2)_3
       rect:
         serializedVersion: 2
-        x: 9
-        y: 10
-        width: 25
-        height: 20
-      alignment: 9
-      pivot: {x: 0.5, y: -1.8}
+        x: 470
+        y: 46
+        width: 35
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5be03d8c4fa06f94bb1c842af1260754
-      internalID: 1925268589
+      spriteID: faf8f41eb061897498eb7f2e038592a6
+      internalID: -984317315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objetos_4
+      name: Vestidor(Objetos_2)_4
       rect:
         serializedVersion: 2
-        x: 42
-        y: 14
-        width: 24
-        height: 22
-      alignment: 9
-      pivot: {x: 0.5, y: -2}
+        x: 5
+        y: 15
+        width: 270
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b747fc39a095c44f895533bcfe77eec
-      internalID: 1723916150
+      spriteID: d88ec757bdc6b9f45ae384130ed6631e
+      internalID: 1898088899
       vertices: []
       indices: 
       edges: []
@@ -232,11 +232,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Objetos_2: 1865584069
-      Objetos_3: 1925268589
-      Objetos_1: -1179177666
-      Objetos_4: 1723916150
-      Objetos_0: 995281215
+      Vestidor(Objetos_2)_3: -984317315
+      Vestidor(Objetos_2)_1: -541785455
+      Vestidor(Objetos_2)_0: -52797465
+      Vestidor(Objetos_2)_4: 1898088899
+      Vestidor(Objetos_2)_2: -162473373
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
