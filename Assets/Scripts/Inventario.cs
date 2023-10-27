@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Playables;
 
 public class Inventario : MonoBehaviour
 {
@@ -22,6 +23,7 @@ public class Inventario : MonoBehaviour
 
     public GameObject Panel_Recoger;
     public float Tiempo_Panel_Recoger;
+    private float Tiempo_Anim_Sombrero = 9f;
     public GameObject Panel_LibroIncorrecto;
     public GameObject Panel_RopaIncorrecta;
 
@@ -41,7 +43,19 @@ public class Inventario : MonoBehaviour
 
     private bool Flag = false;
 
+    private bool Flag_2 = false;
+
     public static bool Libreria_Completo;
+
+    public static bool Vestidor_Completo;
+
+    public PlayableDirector DirectorAnimEspejo;
+
+    public static bool EnAnimacionSombrero;
+
+    private bool RopaSupCorrecta;
+    private bool RopaInfCorrecta;
+    private bool SombreroUsado;
 
     void Start()
     {
@@ -57,6 +71,12 @@ public class Inventario : MonoBehaviour
         {
             Libreria_Completo = true;
             Flag = true;
+        }
+
+        if (!Flag_2 && RopaSupCorrecta == true && RopaInfCorrecta == true && SombreroUsado == true)
+        {
+            Vestidor_Completo = true;
+            Flag_2 = true;
         }
 
         if (Input.GetKeyDown(KeyCode.I) && !playerController.EstaCaminando || Input.GetKeyDown(KeyCode.Space) && Estanteria.EnEstanteria == true && !playerController.EstaCaminando || Input.GetKeyDown(KeyCode.Space) && Maniqui_Script.EnManiqui == true && !playerController.EstaCaminando || Input.GetKeyDown(KeyCode.Space) && EspejoScript.EnEspejo == true && !playerController.EstaCaminando)
@@ -159,6 +179,13 @@ public class Inventario : MonoBehaviour
         Panel_RopaIncorrecta.SetActive(false);
     }
 
+    IEnumerator ReactivarBoolMovimiento()
+    {
+        yield return new WaitForSeconds(Tiempo_Anim_Sombrero);
+    
+        EnAnimacionSombrero = false;
+    }
+
     public void Navegar()
     {
 
@@ -249,6 +276,7 @@ public class Inventario : MonoBehaviour
 
                         if (Input.GetKeyDown(KeyCode.Space) && Script_Maniqui != null && spriteSeleccionado == Script_Maniqui.spriteManiqui_1) // test -------------------
                         {
+                            RopaSupCorrecta = true;
                             Script_Maniqui.ActivarRopaSuperior();
                             Bag[ID].GetComponent<Image>().enabled = false;
                             Fases_inv = 0;
@@ -257,6 +285,7 @@ public class Inventario : MonoBehaviour
 
                         if (Input.GetKeyDown(KeyCode.Space) && Script_Maniqui != null && spriteSeleccionado == Script_Maniqui.spriteManiqui_2) // test ---------------
                         {
+                            RopaInfCorrecta = true;
                             Script_Maniqui.ActivarRopaInferior();
                             Bag[ID].GetComponent<Image>().enabled = false;
                             Fases_inv = 0;
@@ -272,10 +301,14 @@ public class Inventario : MonoBehaviour
 
                         if (Input.GetKeyDown(KeyCode.Space) && Script_Espejo != null && spriteSeleccionado == Script_Espejo.spriteEnEspejo) // test -------------------
                         {
-                            Debug.Log("Animacion");
+                            SombreroUsado = true;
+                            EnAnimacionSombrero = true;
+                            StartCoroutine(ReactivarBoolMovimiento());
                             Bag[ID].GetComponent<Image>().enabled = false;
                             Fases_inv = 0;
-
+                            GameObject directorObject = GameObject.FindGameObjectWithTag("TimeLine_2");
+                            DirectorAnimEspejo = directorObject.GetComponent<PlayableDirector>();
+                            DirectorAnimEspejo.Play();
                         }
 
 

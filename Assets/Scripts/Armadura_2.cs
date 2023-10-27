@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Armadura : MonoBehaviour
+public class Armadura_2 : MonoBehaviour
 {
 
     public GameObject Armadura_Fase_1;
@@ -21,7 +21,7 @@ public class Armadura : MonoBehaviour
     
     void Update()
     {
-        if (!sonidoReproducido && Inventario.Libreria_Completo == true)
+        if (!sonidoReproducido && Inventario.Vestidor_Completo == true)
         {
             Armadura_Fase_1.SetActive(false);
             Armadura_Fase_2.enabled = true;

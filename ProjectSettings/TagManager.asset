@@ -19,6 +19,7 @@ TagManager:
   - Referencia_Maniqui
   - Espejo
   - Referencia_Espejo
+  - TimeLine_2
   layers:
   - Default
   - TransparentFX

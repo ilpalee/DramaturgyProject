@@ -24,6 +24,7 @@ public class Player_1_Controller : MonoBehaviour
     private MovementAxis axis = MovementAxis.Horizontal;
 
 
+
       private enum MovementAxis
       {
          Vertical, Horizontal
@@ -37,8 +38,9 @@ public class Player_1_Controller : MonoBehaviour
 
       private void Update()
       {
+      
             
-        if (MovementInput == true && !Inventario.Activar_inv && !MenuDePausa.EnPausa)
+        if (MovementInput == true && !Inventario.Activar_inv && !MenuDePausa.EnPausa && !Inventario.EnAnimacionSombrero)
         {
 
          if (Input.GetButtonDown("Horizontal")) axis = MovementAxis.Horizontal;
