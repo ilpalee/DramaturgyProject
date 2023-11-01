@@ -40,7 +40,7 @@ public class Player_1_Controller : MonoBehaviour
       {
       
             
-        if (MovementInput == true && !Inventario.Activar_inv && !MenuDePausa.EnPausa && !Inventario.EnAnimacionSombrero)
+        if (MovementInput == true && !Inventario.Activar_inv && !MenuDePausa.EnPausa && !Inventario.EnAnimacionSombrero && !AnimacionFinal.EnAnimacionFinal)
         {
 
          if (Input.GetButtonDown("Horizontal")) axis = MovementAxis.Horizontal;
