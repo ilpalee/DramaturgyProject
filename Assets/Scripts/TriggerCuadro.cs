@@ -37,6 +37,14 @@ public class TriggerCuadro : MonoBehaviour
         }
     }
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.gameObject.CompareTag("Personaje1"))
+        {
+            boxCollider.enabled = false;
+        }
+    }
+
     private void DespuesDelTiempo()
     {
         SceneManager.LoadScene("Casa2");

@@ -21,7 +21,7 @@ public class PuertaFinal : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && EnPuertaFinal == true)
         {
             
-           SceneManager.LoadScene("MenuPrincipal");
+           SceneManager.LoadScene("Final");
            EnPuertaFinal = false;
 
             if (DatosGuardadosScript != null)

@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Casa2.unity
     guid: 02b7cbbb6f376484580f54472be24054
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: f8f9c95dbc97dd1419fc894d08c83a4b
   m_configObjects: {}
