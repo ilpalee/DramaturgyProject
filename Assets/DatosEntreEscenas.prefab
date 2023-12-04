@@ -6631,6 +6631,7 @@ GameObject:
   - component: {fileID: 22403731043368576}
   - component: {fileID: 892545747529259663}
   - component: {fileID: 6092209231447574911}
+  - component: {fileID: 4431247114809034410}
   - component: {fileID: 1181289585}
   - component: {fileID: 1181289586}
   - component: {fileID: 1181289587}
@@ -6872,6 +6873,23 @@ MonoBehaviour:
   Pasos: {fileID: 1181289585}
   Ambiente: {fileID: 1181289586}
   Puerta: {fileID: 1181289587}
+--- !u!114 &4431247114809034410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413502929777521125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e34f15c1b73b124abe81f9923b4b2bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VidaMaxima: 0
+  Vida: 0
+  Corazon: []
+  C_Lleno: {fileID: 0}
+  C_Vacio: {fileID: 0}
 --- !u!82 &1181289585
 AudioSource:
   m_ObjectHideFlags: 0

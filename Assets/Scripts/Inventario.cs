@@ -6,6 +6,7 @@ using UnityEngine.Playables;
 
 public class Inventario : MonoBehaviour
 {
+    public Player_1_Controller P1_Controller;
     
     public List<GameObject> Bag = new List<GameObject>();
     public GameObject inv;
@@ -269,6 +270,7 @@ public class Inventario : MonoBehaviour
                         }
                         else if (Input.GetKeyDown(KeyCode.Space) && estanteriaActual != null && spriteSeleccionado != estanteriaActual.spriteEnEstanteria)
                         {
+                            P1_Controller.Vida--;
                             Panel_LibroIncorrecto.SetActive(true);
                             StartCoroutine(DesactivarPanelRecoger());
                             Fases_inv = 0;
@@ -294,6 +296,7 @@ public class Inventario : MonoBehaviour
 
                         if (Input.GetKeyDown(KeyCode.Space) && Script_Maniqui != null && spriteSeleccionado != Script_Maniqui.spriteManiqui_1 && spriteSeleccionado != Script_Maniqui.spriteManiqui_2) // test -----------
                         {
+                            P1_Controller.Vida--;
                             Panel_RopaIncorrecta.SetActive(true);
                             StartCoroutine(DesactivarPanelRecoger());
                             Fases_inv = 0;

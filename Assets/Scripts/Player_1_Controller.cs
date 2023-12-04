@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 
 public class Player_1_Controller : MonoBehaviour
 {
+    public DatosGuardadosEntreEscenas DatosGuardadosScript;
+
     public Rigidbody2D rb;
     public float speed;
     public Vector2 movement;
@@ -22,7 +24,13 @@ public class Player_1_Controller : MonoBehaviour
     public AudioSource Puerta;
 
     private MovementAxis axis = MovementAxis.Horizontal;
+    
+    public int VidaMaxima;
+    public int Vida;
 
+    public Image[] Corazon;
+    public Sprite C_Lleno;
+    public Sprite C_Vacio;
 
 
       private enum MovementAxis
@@ -34,11 +42,12 @@ public class Player_1_Controller : MonoBehaviour
       {
          movement = Vector3.zero;
          SceneManager.sceneLoaded += OnSceneLoaded;
+         DatosGuardadosScript = FindObjectOfType<DatosGuardadosEntreEscenas>();
       }
 
       private void Update()
       {
-      
+        CorazonesLogica();
             
         if (MovementInput == true && !Inventario.Activar_inv && !MenuDePausa.EnPausa && !Inventario.EnAnimacionSombrero && !AnimacionFinal.EnAnimacionFinal)
         {
@@ -166,6 +175,45 @@ public class Player_1_Controller : MonoBehaviour
         if (scene.name == "Casa2")
         {
             Ambiente.Stop();
+        }
+      }
+
+      public void CorazonesLogica()
+      {
+        if (Vida <= 0)
+        {
+            SceneManager.LoadScene("GameOver");
+
+            if (DatosGuardadosScript != null)
+            {
+                DatosGuardadosScript.DestruirEnMenuPrincipal();
+            }
+        }
+
+        if (Vida > VidaMaxima)
+        {
+            Vida = VidaMaxima;
+        }
+
+        for (int i = 0; i < Corazon.Length; i ++)
+        {
+            if (i < Vida)
+            {
+                Corazon[i].sprite = C_Lleno;
+            }
+            else
+            {
+                Corazon[i].sprite = C_Vacio;
+            }
+
+            if (i < VidaMaxima)
+            {
+                Corazon[i].enabled = true;
+            }
+            else
+            {
+                Corazon[i].enabled = false;
+            }
         }
       }
 
