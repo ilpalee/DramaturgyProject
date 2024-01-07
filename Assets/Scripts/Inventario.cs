@@ -80,7 +80,7 @@ public class Inventario : MonoBehaviour
             Flag_2 = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.I) && !playerController.EstaCaminando || Input.GetKeyDown(KeyCode.Space) && Estanteria.EnEstanteria == true && !playerController.EstaCaminando || Input.GetKeyDown(KeyCode.Space) && Maniqui_Script.EnManiqui == true && !playerController.EstaCaminando || Input.GetKeyDown(KeyCode.Space) && EspejoScript.EnEspejo == true && !playerController.EstaCaminando)
+        if (Input.GetKeyDown(KeyCode.I) && !playerController.EstaCaminando || Input.GetKeyDown(KeyCode.Space) && Estanteria.EnEstanteria == true && !playerController.EstaCaminando || Input.GetKeyDown(KeyCode.Space) && Maniqui_Script.EnManiqui == true && !playerController.EstaCaminando || Input.GetKeyDown(KeyCode.Space) && EspejoScript.EnEspejo == true && !playerController.EstaCaminando || Input.GetKeyDown(KeyCode.Space) && Chimenea.EnChimenea == true && !playerController.EstaCaminando)
         {
             Activar_inv = !Activar_inv;
             
