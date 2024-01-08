@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 16b88b7c26fd88946884ca591fcc4ecf
+guid: 7549613a68348d24f83d57f5b60f60da
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,55 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChimeneaOFF_+_Objetos_0
+      name: FuegoAnim_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 129
-        width: 29
-        height: 20
-      alignment: 9
-      pivot: {x: 0.5, y: -2.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0be2f04aa5a0a9448da54f7147e8f12
-      internalID: 1635368841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChimeneaOFF_+_Objetos_1
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 111
-        width: 27
-        height: 25
-      alignment: 9
-      pivot: {x: 0.5, y: -2.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5290eedafb882444bb23ca823a26d57e
-      internalID: -616919302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChimeneaOFF_+_Objetos_2
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 42
+        x: 5
+        y: 328
         width: 157
-        height: 114
+        height: 139
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,71 +131,197 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dadea3df8d0e4c44b58accee09b1ef3
-      internalID: 2115286344
+      spriteID: f4dc9a14a6f0a3742a526e92636c0f83
+      internalID: -1334118083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChimeneaOFF_+_Objetos_3
+      name: FuegoAnim_1
       rect:
         serializedVersion: 2
-        x: 11
-        y: 93
-        width: 24
-        height: 22
-      alignment: 9
-      pivot: {x: 0.5, y: -2.5}
+        x: 181
+        y: 328
+        width: 157
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0e7b7e06ed363545b2610741899b69f
-      internalID: 1580121900
+      spriteID: 06cd8f9e39d9d0844aa654ca4de42a85
+      internalID: 1524157187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChimeneaOFF_+_Objetos_4
+      name: FuegoAnim_2
       rect:
         serializedVersion: 2
-        x: 58
-        y: 63
-        width: 19
-        height: 35
-      alignment: 9
-      pivot: {x: 0.5, y: -2.5}
+        x: 357
+        y: 328
+        width: 157
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2e7c3a52b946c541b14ab59cc8b9857
-      internalID: 811074170
+      spriteID: 9c6306926d13ac0418a82a87c46a5f20
+      internalID: 719012354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChimeneaOFF_+_Objetos_5
+      name: FuegoAnim_3
       rect:
         serializedVersion: 2
-        x: 15
-        y: 54
-        width: 17
-        height: 24
-      alignment: 9
-      pivot: {x: 0.5, y: -2.5}
+        x: 533
+        y: 328
+        width: 157
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e46d4d05892fee34688847874e70e85d
-      internalID: -24571596
+      spriteID: 11be517086ec83a4d9aa49ce2bbb1f0c
+      internalID: 637869582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoAnim_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 168
+        width: 157
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3fa7b15e593864090b48e339ff31c7
+      internalID: 50083009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoAnim_5
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 168
+        width: 157
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f52483f5e94a5418f2dad955750a14
+      internalID: -179463896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoAnim_6
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 168
+        width: 157
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c502919695fe8c4ba80f76b209fc92f
+      internalID: -1941027541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoAnim_7
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 168
+        width: 157
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6824ded4c4f4fb4aba45882aac7e7a0
+      internalID: 1724069179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoAnim_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 8
+        width: 157
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e594dc395c80334fa4b6c3304c353a7
+      internalID: -1280434345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuegoAnim_9
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 8
+        width: 157
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be66d551e4ef3b4abad3352043f29df
+      internalID: 1294618261
       vertices: []
       indices: 
       edges: []
@@ -253,12 +337,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ChimeneaOFF_+_Objetos_1: -616919302
-      ChimeneaOFF_+_Objetos_0: 1635368841
-      ChimeneaOFF_+_Objetos_2: 2115286344
-      ChimeneaOFF_+_Objetos_3: 1580121900
-      ChimeneaOFF_+_Objetos_4: 811074170
-      ChimeneaOFF_+_Objetos_5: -24571596
+      FuegoAnim_1: 1524157187
+      FuegoAnim_8: -1280434345
+      FuegoAnim_9: 1294618261
+      FuegoAnim_4: 50083009
+      FuegoAnim_6: -1941027541
+      FuegoAnim_5: -179463896
+      FuegoAnim_3: 637869582
+      FuegoAnim_0: -1334118083
+      FuegoAnim_7: 1724069179
+      FuegoAnim_2: 719012354
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

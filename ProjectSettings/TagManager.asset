@@ -22,6 +22,9 @@ TagManager:
   - TimeLine_2
   - TimeLine_Final
   - Consejo_1
+  - ChimeneaColl
+  - ReferenciaChimenea
+  - AnimacionFuego
   layers:
   - Default
   - TransparentFX

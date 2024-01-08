@@ -9,6 +9,8 @@ public class Chimenea : MonoBehaviour
     public static bool EnChimenea;
     public BoxCollider2D BoxCollider;
 
+    public Sprite spriteEnChimenea;
+
     // Start is called before the first frame update
     void Start()
     {

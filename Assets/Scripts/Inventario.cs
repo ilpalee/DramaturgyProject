@@ -38,6 +38,9 @@ public class Inventario : MonoBehaviour
 
     private Maniqui_Script Script_Maniqui; // test -------------------
 
+    private Chimenea Script_Chimenea;
+    public GameObject AnimacionChimenea;
+
     public AudioSource LibroCorrecto;
 
     private int ContadorLibros;
@@ -126,6 +129,11 @@ public class Inventario : MonoBehaviour
             Script_Maniqui = coll.GetComponent<Maniqui_Script>(); 
         }
 
+        if (coll.CompareTag("ChimeneaColl"))
+        {
+            Script_Chimenea = coll.GetComponent<Chimenea>(); 
+        }
+
     }
 
     public void OnTriggerExit2D(Collider2D coll)
@@ -148,6 +156,11 @@ public class Inventario : MonoBehaviour
         if (coll.CompareTag("Referencia_Espejo")) // test ------------------------
         {
             Script_Espejo = null;
+        }
+
+        if (coll.CompareTag("ReferenciaChimenea")) 
+        {
+            Script_Chimenea = null;
         }
 
 
@@ -314,6 +327,20 @@ public class Inventario : MonoBehaviour
                             DirectorAnimEspejo.Play();
                         }
 
+                        if (Input.GetKeyDown(KeyCode.Space) && Script_Chimenea != null && spriteSeleccionado == Script_Chimenea.spriteEnChimenea)
+                        {
+                            Bag[ID].GetComponent<Image>().enabled = false;
+                            AnimacionChimenea = GameObject.FindGameObjectWithTag("AnimacionFuego");
+                            if (AnimacionChimenea != null)
+                            {
+                                SpriteRenderer spriteAnimacionFuego = AnimacionChimenea.GetComponent<SpriteRenderer>();
+                                if(spriteAnimacionFuego != null)
+                                {
+                                    spriteAnimacionFuego.enabled = true;
+                                }
+                            }
+                            Fases_inv = 0;
+                        }
 
 
                         
