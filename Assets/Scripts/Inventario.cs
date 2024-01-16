@@ -7,6 +7,7 @@ using UnityEngine.Playables;
 public class Inventario : MonoBehaviour
 {
     public Player_1_Controller P1_Controller;
+    public Animator anim;
     
     public List<GameObject> Bag = new List<GameObject>();
     public GameObject inv;
@@ -25,6 +26,7 @@ public class Inventario : MonoBehaviour
     public GameObject Panel_Recoger;
     public float Tiempo_Panel_Recoger;
     private float Tiempo_Anim_Sombrero = 9f;
+    private float Tiempo_Anim_Chimenea = 10f;
     public GameObject Panel_LibroIncorrecto;
     public GameObject Panel_RopaIncorrecta;
 
@@ -55,7 +57,11 @@ public class Inventario : MonoBehaviour
 
     public PlayableDirector DirectorAnimEspejo;
 
+    public PlayableDirector DirectorChimenea; 
+
     public static bool EnAnimacionSombrero;
+
+    public static bool EnAnimacionChimenea;
 
     private bool RopaSupCorrecta;
     private bool RopaInfCorrecta;
@@ -70,6 +76,7 @@ public class Inventario : MonoBehaviour
     void Update()
     {
         Navegar();
+
 
         if (!Flag && ContadorLibros == 5)
         {
@@ -198,6 +205,13 @@ public class Inventario : MonoBehaviour
         yield return new WaitForSeconds(Tiempo_Anim_Sombrero);
     
         EnAnimacionSombrero = false;
+    }
+
+    IEnumerator ReactivarBoolMovimiento_2()
+    {
+        yield return new WaitForSeconds(Tiempo_Anim_Chimenea);
+    
+        EnAnimacionChimenea = false;
     }
 
     public void Navegar()
@@ -337,9 +351,16 @@ public class Inventario : MonoBehaviour
                                 if(spriteAnimacionFuego != null)
                                 {
                                     spriteAnimacionFuego.enabled = true;
+                                    GameObject DirectorChimeneaFind = GameObject.FindGameObjectWithTag("TimeLine_Chimenea");
+                                    DirectorChimenea = DirectorChimeneaFind.GetComponent<PlayableDirector>();
+                                    DirectorChimenea.Play();
+                                    EnAnimacionChimenea = true;
+                                    StartCoroutine(ReactivarBoolMovimiento_2());
+                                    // corrutina desabilitar movimiento en animacion
                                 }
                             }
                             Fases_inv = 0;
+
                         }
 
 

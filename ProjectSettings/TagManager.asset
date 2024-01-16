@@ -25,6 +25,7 @@ TagManager:
   - ChimeneaColl
   - ReferenciaChimenea
   - AnimacionFuego
+  - TimeLine_Chimenea
   layers:
   - Default
   - TransparentFX

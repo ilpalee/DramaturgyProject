@@ -59995,6 +59995,54 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 198695077, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198695077, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198695077, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198695077, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 575011750, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 575011750, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 575011750, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 575011750, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776597223, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776597223, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776597223, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776597223, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1031847765799350988, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -60047,6 +60095,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DatosEntreEscenas
       objectReference: {fileID: 0}
+    - target: {fileID: 8227786166904079861, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 6599085683421194517}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
 --- !u!95 &6599085683421194517 stripped

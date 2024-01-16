@@ -49,7 +49,7 @@ public class Player_1_Controller : MonoBehaviour
       {
         CorazonesLogica();
             
-        if (MovementInput == true && !Inventario.Activar_inv && !MenuDePausa.EnPausa && !Inventario.EnAnimacionSombrero && !AnimacionFinal.EnAnimacionFinal)
+        if (MovementInput == true && !Inventario.Activar_inv && !MenuDePausa.EnPausa && !Inventario.EnAnimacionSombrero && !Inventario.EnAnimacionChimenea && !AnimacionFinal.EnAnimacionFinal && !Dialogos.Dialogando)
         {
 
          if (Input.GetButtonDown("Horizontal")) axis = MovementAxis.Horizontal;

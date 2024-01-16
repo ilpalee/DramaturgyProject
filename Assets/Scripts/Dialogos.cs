@@ -15,7 +15,7 @@ public class Dialogos : MonoBehaviour
     [SerializeField] private string NombreSpeaker;
 
     private bool EnRango;
-    private bool Dialogando;
+    public static bool Dialogando;
     private int lineIndex;
     public float TiempoTipeo; 
     

@@ -6230,7 +6230,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: dce6bf5ee25d50b449ca18e9cbb3b830, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ece5a91c2abb4de4a8823dc74c962327, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -15429,7 +15429,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.007835031, y: -0.060482025}
+  m_Offset: {x: 0.006264657, y: -0.060482025}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -15440,7 +15440,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.174442, y: 0.13129425}
+  m_Size: {x: 0.7924686, y: 0.13129425}
   m_EdgeRadius: 0
 --- !u!114 &609459720
 MonoBehaviour:
@@ -16568,7 +16568,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.06326616, y: 0.051418304}
+  m_Offset: {x: -0.07196453, y: 0.051418304}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -16579,7 +16579,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1598718, y: 0.12094879}
+  m_Size: {x: 0.7868077, y: 0.12094879}
   m_EdgeRadius: 0
 --- !u!212 &696494905
 SpriteRenderer:
@@ -20987,6 +20987,73 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0067678406, y: 0.75629455}
   m_Size: {x: 1.878216, y: 1.0469667}
   m_Direction: 1
+--- !u!1 &865048186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 865048188}
+  - component: {fileID: 865048187}
+  - component: {fileID: 865048189}
+  m_Layer: 0
+  m_Name: DirectorTimeline
+  m_TagString: TimeLine_Chimenea
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!320 &865048187
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865048186}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 2e62f09134e8a7b42bb9c1e76f8f9830, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 1204125984012449382, guid: 2e62f09134e8a7b42bb9c1e76f8f9830, type: 2}
+    value: {fileID: 0}
+  m_ExposedReferences:
+    m_References: []
+--- !u!4 &865048188
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865048186}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.06, y: 89.04991, z: -1.4682385}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &865048189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865048186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e20b5ea8ee78df48a26af2f8e7a62b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Personaje_1
+  director: {fileID: 865048187}
+  animationTrackName: TrackFuego
 --- !u!1001 &866947423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36107,7 +36174,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0024748445, y: -0.026134491}
+  m_Offset: {x: -0.0039375722, y: -0.026134491}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -36118,7 +36185,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.059394, y: 0.11740875}
+  m_Size: {x: 0.7873253, y: 0.11740875}
   m_EdgeRadius: 0
 --- !u!1 &1736055418
 GameObject:
