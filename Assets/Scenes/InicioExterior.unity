@@ -34244,6 +34244,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1800729422306260108, guid: 5179496cf46accd4caa85c7a05b8d0f0, type: 3}
   m_PrefabInstance: {fileID: 1235126462}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1241694918 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1241694918, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+  m_PrefabInstance: {fileID: 6599085683421194516}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1243225213
 GameObject:
   m_ObjectHideFlags: 0
@@ -34328,11 +34333,6 @@ Transform:
   m_Father: {fileID: 241787750}
   m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1243732772 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1087516806, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-  m_PrefabInstance: {fileID: 6599085683421194516}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1243890455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60088,17 +60088,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1546090757676373285, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: Panel_Consejo_1
+      propertyPath: Panel_Consejo_3
       value: 
-      objectReference: {fileID: 1243732772}
+      objectReference: {fileID: 1241694918}
     - target: {fileID: 1677412672556819838, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_Name
       value: DatosEntreEscenas
       objectReference: {fileID: 0}
-    - target: {fileID: 8227786166904079861, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-      propertyPath: anim
-      value: 
-      objectReference: {fileID: 6599085683421194517}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
 --- !u!95 &6599085683421194517 stripped

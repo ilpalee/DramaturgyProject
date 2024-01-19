@@ -26,7 +26,7 @@ public class Inventario : MonoBehaviour
     public GameObject Panel_Recoger;
     public float Tiempo_Panel_Recoger;
     private float Tiempo_Anim_Sombrero = 9f;
-    private float Tiempo_Anim_Chimenea = 10f;
+    private float Tiempo_Anim_Chimenea = 7.33f;
     public GameObject Panel_LibroIncorrecto;
     public GameObject Panel_RopaIncorrecta;
 
@@ -62,6 +62,8 @@ public class Inventario : MonoBehaviour
     public static bool EnAnimacionSombrero;
 
     public static bool EnAnimacionChimenea;
+
+    public static bool DesactivarBloqueoEscalera = false;
 
     private bool RopaSupCorrecta;
     private bool RopaInfCorrecta;
@@ -212,6 +214,7 @@ public class Inventario : MonoBehaviour
         yield return new WaitForSeconds(Tiempo_Anim_Chimenea);
     
         EnAnimacionChimenea = false;
+        DesactivarBloqueoEscalera = true;
     }
 
     public void Navegar()
@@ -356,7 +359,7 @@ public class Inventario : MonoBehaviour
                                     DirectorChimenea.Play();
                                     EnAnimacionChimenea = true;
                                     StartCoroutine(ReactivarBoolMovimiento_2());
-                                    // corrutina desabilitar movimiento en animacion
+                                    
                                 }
                             }
                             Fases_inv = 0;
