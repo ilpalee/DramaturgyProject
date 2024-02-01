@@ -980,6 +980,7 @@ GameObject:
   - component: {fileID: 198695077}
   - component: {fileID: 198695079}
   - component: {fileID: 198695078}
+  - component: {fileID: 1471249115}
   m_Layer: 5
   m_Name: Corazon_2
   m_TagString: Untagged
@@ -1045,6 +1046,26 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!95 &1471249115
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198695076}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &231621105
 GameObject:
   m_ObjectHideFlags: 0
@@ -2545,6 +2566,7 @@ GameObject:
   - component: {fileID: 575011750}
   - component: {fileID: 575011752}
   - component: {fileID: 575011751}
+  - component: {fileID: 2013260308}
   m_Layer: 5
   m_Name: Corazon_1
   m_TagString: Untagged
@@ -2610,6 +2632,26 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!95 &2013260308
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575011749}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &582780918
 GameObject:
   m_ObjectHideFlags: 0
@@ -3610,6 +3652,7 @@ GameObject:
   - component: {fileID: 891262731}
   - component: {fileID: 891262730}
   - component: {fileID: 891262732}
+  - component: {fileID: 609765069}
   m_Layer: 5
   m_Name: Cont_Vidas
   m_TagString: Untagged
@@ -3704,6 +3747,26 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!95 &609765069
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891262728}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &960984496
 GameObject:
   m_ObjectHideFlags: 0
@@ -6234,6 +6297,7 @@ GameObject:
   - component: {fileID: 1776597223}
   - component: {fileID: 1776597225}
   - component: {fileID: 1776597224}
+  - component: {fileID: 445436122}
   m_Layer: 5
   m_Name: Corazon_3
   m_TagString: Untagged
@@ -6299,6 +6363,26 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!95 &445436122
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776597222}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1781191614
 GameObject:
   m_ObjectHideFlags: 0
@@ -7717,6 +7801,7 @@ GameObject:
   - component: {fileID: 1181289586}
   - component: {fileID: 1181289587}
   - component: {fileID: 1013247434}
+  - component: {fileID: 6599085683421194532}
   m_Layer: 0
   m_Name: Personaje_1
   m_TagString: Personaje1
@@ -7967,6 +8052,7 @@ MonoBehaviour:
   - {fileID: 1776597224}
   C_Lleno: {fileID: -282154139, guid: 2cfe74d162aed0949b9062693e5bea5e, type: 3}
   C_Vacio: {fileID: 1379388778, guid: 2cfe74d162aed0949b9062693e5bea5e, type: 3}
+  PerdidaVida: {fileID: 6599085683421194532}
 --- !u!114 &1546090757676373285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7981,6 +8067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Panel_Consejo_1: {fileID: 1087516806}
   Panel_Consejo_2: {fileID: 1747929134}
+  Panel_Consejo_3: {fileID: 1241694918}
   Consejo1: {fileID: 0}
   Consejo2: {fileID: 0}
   Consejo2_2: {fileID: 0}
@@ -8283,6 +8370,102 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 48b675345ede0a947b9bd4865966c44b, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &6599085683421194532
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413502929777521125}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: eb8ec28e0497f1c448507365cc361d47, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

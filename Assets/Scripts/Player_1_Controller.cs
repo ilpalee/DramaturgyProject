@@ -31,6 +31,12 @@ public class Player_1_Controller : MonoBehaviour
     public Image[] Corazon;
     public Sprite C_Lleno;
     public Sprite C_Vacio;
+    
+
+    private bool FlagSonidoVida = false;
+    private float TiempoSonidoVida = 1f;
+    private int VidaAnterior;
+    public AudioSource PerdidaVida;
 
 
       private enum MovementAxis
@@ -48,6 +54,7 @@ public class Player_1_Controller : MonoBehaviour
       private void Update()
       {
         CorazonesLogica();
+        
             
         if (MovementInput == true && !Inventario.Activar_inv && !MenuDePausa.EnPausa && !Inventario.EnAnimacionSombrero && !Inventario.EnAnimacionChimenea && !AnimacionFinal.EnAnimacionFinal && !Dialogos.Dialogando)
         {
@@ -180,6 +187,15 @@ public class Player_1_Controller : MonoBehaviour
 
       public void CorazonesLogica()
       {
+        if (Vida < VidaAnterior && !FlagSonidoVida)
+        {
+            PerdidaVida.Play();
+            FlagSonidoVida = true;
+            StartCoroutine(ReactivarBoolSonidoVida());
+        }
+
+        VidaAnterior = Vida; 
+
         if (Vida <= 0)
         {
             SceneManager.LoadScene("GameOver");
@@ -216,6 +232,14 @@ public class Player_1_Controller : MonoBehaviour
             }
         }
       }
+
+
+      IEnumerator ReactivarBoolSonidoVida()
+    {
+        yield return new WaitForSeconds(TiempoSonidoVida);
+    
+        FlagSonidoVida = false;
+    }
 
       
 }
