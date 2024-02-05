@@ -16,6 +16,8 @@ public class Madera_Chimenea : MonoBehaviour
     public GameObject ColliderTextoChimenea;
     public GameObject ColliderUsarChimenea;
 
+    public GameObject TriggerSonido;
+
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -35,6 +37,7 @@ public class Madera_Chimenea : MonoBehaviour
         {
             ColliderTextoChimenea.SetActive(false);
             ColliderUsarChimenea.SetActive(true);
+            TriggerSonido.SetActive(true);
         }
 
     }

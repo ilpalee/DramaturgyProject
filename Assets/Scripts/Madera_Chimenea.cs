@@ -9,12 +9,15 @@ public class Test_cambioSprite : MonoBehaviour
     public Sprite BaldeVacio;
 
     public GameObject TroncoRecolectable;
-
+    
     private bool Flag = false;
 
     private bool MaderaEnInventario = false;
     public GameObject ColliderTextoChimenea;
     public GameObject ColliderUsarChimenea;
+
+    
+
 
     void Start()
     {
@@ -36,6 +39,8 @@ public class Test_cambioSprite : MonoBehaviour
             ColliderTextoChimenea.SetActive(false);
             ColliderUsarChimenea.SetActive(true);
         }
+        
+
 
     }
 }
