@@ -8,7 +8,8 @@ public class Trigger_SonidoCuadro : MonoBehaviour
     public AudioSource PasosCuadro;
     public GameObject CuadroAntagonista;
     public GameObject CuadroAntagonistaVacio;
-  
+    
+    public BoxCollider2D BoxCollider;
 
     
     void Start()
@@ -29,6 +30,7 @@ public class Trigger_SonidoCuadro : MonoBehaviour
             PasosCuadro.Play();
             CuadroAntagonista.SetActive(false);
             CuadroAntagonistaVacio.SetActive(true);
+            BoxCollider.enabled = false;
         }
         
     }

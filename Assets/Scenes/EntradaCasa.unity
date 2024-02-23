@@ -17521,7 +17521,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.5196781, y: 0.2642784}
+  m_Offset: {x: -1.1355839, y: 0.41031647}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -17532,7 +17532,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.0393562, y: 5.8968124}
+  m_Size: {x: 3.2711678, y: 6.1888885}
   m_EdgeRadius: 0
 --- !u!114 &722801136
 MonoBehaviour:
@@ -17549,6 +17549,7 @@ MonoBehaviour:
   PasosCuadro: {fileID: 722801137}
   CuadroAntagonista: {fileID: 153259467}
   CuadroAntagonistaVacio: {fileID: 76121790}
+  BoxCollider: {fileID: 722801135}
 --- !u!82 &722801137
 AudioSource:
   m_ObjectHideFlags: 0
@@ -17561,7 +17562,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a982290795a73d849928b3f849d49a94, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.7
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -17571,7 +17572,7 @@ AudioSource:
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
-  Pan2D: 0
+  Pan2D: 0.7
   rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0

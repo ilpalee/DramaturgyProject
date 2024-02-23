@@ -258,10 +258,11 @@ public class Inventario : MonoBehaviour
                     ID -= 5;
                 }
 
-                if (Input.GetKeyDown(KeyCode.DownArrow) && ID < 5)
+                if (Input.GetKeyDown(KeyCode.DownArrow) && ID < 10)
                 {
                     ID += 5;
                 }
+
 
                 Selector.transform.position = Bag[ID].transform.position;
 
