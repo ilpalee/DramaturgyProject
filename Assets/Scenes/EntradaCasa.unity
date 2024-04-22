@@ -136,6 +136,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 897644353}
     m_Modifications:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
+      propertyPath: FadeEffect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: -1.4
       objectReference: {fileID: 0}
@@ -16592,6 +16596,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 897644353}
     m_Modifications:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
+      propertyPath: FadeEffect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: 1.4
       objectReference: {fileID: 0}
@@ -17230,6 +17238,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 897644353}
     m_Modifications:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
+      propertyPath: FadeEffect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: -1.4
       objectReference: {fileID: 0}
@@ -17811,6 +17823,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 897644353}
     m_Modifications:
+    - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
+      propertyPath: FadeEffect
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: -1.4
@@ -22447,6 +22463,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 897644353}
     m_Modifications:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
+      propertyPath: FadeEffect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: -1.4
       objectReference: {fileID: 0}
@@ -23662,6 +23682,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 897644353}
     m_Modifications:
+    - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
+      propertyPath: FadeEffect
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: 1.4
@@ -28530,6 +28554,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 897644353}
     m_Modifications:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
+      propertyPath: FadeEffect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: -1.4
       objectReference: {fileID: 0}
@@ -29276,6 +29304,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 897644353}
     m_Modifications:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
+      propertyPath: FadeEffect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: -1.4
       objectReference: {fileID: 0}
@@ -29604,6 +29636,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 897644353}
     m_Modifications:
+    - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
+      propertyPath: FadeEffect
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: 1.4
@@ -38074,6 +38110,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 897644353}
     m_Modifications:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
+      propertyPath: FadeEffect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: 1.4
       objectReference: {fileID: 0}
@@ -45534,6 +45574,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 897644353}
     m_Modifications:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
+      propertyPath: FadeEffect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: 1.4
       objectReference: {fileID: 0}
@@ -45827,6 +45871,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 897644353}
     m_Modifications:
+    - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
+      propertyPath: FadeEffect
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: 1.4

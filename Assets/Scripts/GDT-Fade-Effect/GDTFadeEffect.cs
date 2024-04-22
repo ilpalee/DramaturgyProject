@@ -1,25 +1,28 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GDTFadeEffect : MonoBehaviour
 {
-    public bool playOnAwake = true;
+    public  bool playOnAwake = true;
     public Color firstColor;
     public Color lastColor;
     public float timeEffect;
     public float initialDelay;
-    public bool firstToLast=true;
-    public bool pingPong;
+    public  bool firstToLast=true; 
+    public  bool pingPong; 
     public float pingPongDelay;
-    public bool disableWhenFinish=true;
+    public  bool disableWhenFinish=true; 
     public float disableDelay;
     private float speed;
     private Image blackImage;
     private float currentValue;
-    private bool performEffect=false;
-    private bool finished = false;
-    private bool halfCycle;
-    private bool goingToLast;
+    private  bool performEffect=false; 
+    private  bool finished = false;
+    private  bool halfCycle; 
+    private  bool goingToLast; 
+
+
     void OnEnable()
     {
         halfCycle = false;
@@ -179,5 +182,6 @@ public class GDTFadeEffect : MonoBehaviour
         finished = false;
     }
 
-
 }
+
+

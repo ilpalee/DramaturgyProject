@@ -16,6 +16,7 @@ public class MenuDePausa : MonoBehaviour
 
     public Player_1_Controller Player_1_Controller_Script;
 
+
     void Start()
     {
         DatosGuardadosScript = FindObjectOfType<DatosGuardadosEntreEscenas>();
@@ -72,6 +73,7 @@ public class MenuDePausa : MonoBehaviour
         //Reinicio bool puzzle libreria y vestidor completos
         Inventario.Libreria_Completo = false; //test
         Inventario.Vestidor_Completo = false; //test
+
 
         SceneManager.LoadScene("MenuPrincipal", LoadSceneMode.Single);
     }

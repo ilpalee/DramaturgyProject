@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4340539383612703545}
   m_Layer: 5
   m_Name: GDT-Canvas-Fade-Object
-  m_TagString: Untagged
+  m_TagString: FadeObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,10 +92,10 @@ MonoBehaviour:
   playOnAwake: 1
   firstColor: {r: 0, g: 0, b: 0, a: 0}
   lastColor: {r: 0, g: 0, b: 0, a: 1}
-  timeEffect: 1
-  initialDelay: 0
-  firstToLast: 1
+  timeEffect: 0.7
+  initialDelay: 0.4
+  firstToLast: 0
   pingPong: 0
   pingPongDelay: 0
-  disableWhenFinish: 0
+  disableWhenFinish: 1
   disableDelay: 0

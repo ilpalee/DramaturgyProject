@@ -11,9 +11,10 @@ public class ControlCuadro : MonoBehaviour
     public GameObject CuadroPj;
     public GameObject TriggerCuadro;
 
+
     void Start()
     {
-        
+
     }
 
  

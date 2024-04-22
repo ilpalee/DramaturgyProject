@@ -3131,7 +3131,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 1876839736}
+      objectReference: {fileID: 0}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.y
       value: 1.5
@@ -11582,7 +11582,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 1876839736}
+      objectReference: {fileID: 0}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.y
       value: -1.5
@@ -15713,7 +15713,7 @@ PlayableDirector:
   - key: {fileID: 8648236241615380288, guid: 2381eb8a33f0f624faada3ccbfba6e18, type: 2}
     value: {fileID: 0}
   - key: {fileID: -1674131466680104693, guid: 2381eb8a33f0f624faada3ccbfba6e18, type: 2}
-    value: {fileID: 6599085683421194520}
+    value: {fileID: 0}
   - key: {fileID: 4893298075236500996, guid: 2381eb8a33f0f624faada3ccbfba6e18, type: 2}
     value: {fileID: 1914525358}
   - key: {fileID: -4747683047884179040, guid: 2381eb8a33f0f624faada3ccbfba6e18, type: 2}
@@ -21769,7 +21769,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 1876839736}
+      objectReference: {fileID: 0}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.y
       value: 1.5
@@ -46591,6 +46591,7 @@ MonoBehaviour:
   CamaraTransicion: {fileID: 330911103}
   CamaraMain: {fileID: 427195656}
   Player_1_Controller_Script: {fileID: 0}
+  condicion: 1
   TiempoEjecucion: 5
   TiempoEjecucion2: 3
 --- !u!1 &1664435855
@@ -48333,7 +48334,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 1876839736}
+      objectReference: {fileID: 0}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.y
       value: -1.5
@@ -51034,7 +51035,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 1876839736}
+      objectReference: {fileID: 0}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.y
       value: -1.5
@@ -52737,11 +52738,6 @@ Transform:
   m_Father: {fileID: 241787750}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1876839736 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2493114166059828840, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-  m_PrefabInstance: {fileID: 6599085683421194516}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1880448066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60055,7 +60051,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 1876839736}
+      objectReference: {fileID: 0}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.y
       value: 1.5
@@ -60221,16 +60217,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: DatosEntreEscenas
       objectReference: {fileID: 0}
+    - target: {fileID: 2260353337467247626, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: disableWhenFinish
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
 --- !u!95 &6599085683421194517 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 3650841274648834254, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-  m_PrefabInstance: {fileID: 6599085683421194516}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &6599085683421194520 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 6599085683421194520, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
   m_PrefabInstance: {fileID: 6599085683421194516}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8223124770709920342
