@@ -11021,7 +11021,6 @@ MonoBehaviour:
   Audio2: {fileID: 1181289586}
   Audio3: {fileID: 1181289587}
   Player_1_Controller_Script: {fileID: 0}
-  fadeEffect: {fileID: 0}
 --- !u!114 &892545747529259663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12040,6 +12039,10 @@ PrefabInstance:
     - target: {fileID: 4340539383612703543, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
       propertyPath: m_Name
       value: GDT-Canvas-Fade-Object
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703543, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}

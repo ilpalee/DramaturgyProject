@@ -75,6 +75,6 @@ public class MenuDePausa : MonoBehaviour
         Inventario.Vestidor_Completo = false; //test
 
 
-        SceneManager.LoadScene("MenuPrincipal", LoadSceneMode.Single);
+        SceneManager.LoadScene("MenuPrincipal");
     }
 }

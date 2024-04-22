@@ -14,7 +14,6 @@ public class TriggerCuadro : MonoBehaviour
 
      private BoxCollider2D boxCollider;  
 
-
     // Start is called before the first frame update
 
 
@@ -51,7 +50,7 @@ public class TriggerCuadro : MonoBehaviour
     private void DespuesDelTiempo()
     {
         boxCollider.enabled = false;
-        SceneManager.LoadScene("Casa2", LoadSceneMode.Single);
+        SceneManager.LoadScene("Casa2");
     }
     
 

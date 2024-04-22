@@ -32,7 +32,7 @@ public class BotonPlay : MonoBehaviour
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
 
         // Carga la escena especificada
-        SceneManager.LoadScene(sceneToLoad, LoadSceneMode.Single);
+        SceneManager.LoadScene(sceneToLoad);
     }
 
 }

@@ -22,7 +22,6 @@ public class PlayerTP : MonoBehaviour
 
     void Update()
     {
-
         if(FadeEffect.activeSelf)
         {
             Player_1_Controller_Script.MovementInput = false;
