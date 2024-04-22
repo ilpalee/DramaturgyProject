@@ -8,7 +8,7 @@ public class CV_Switch : MonoBehaviour
     public GameObject CamaraMain;
     public Player_1_Controller Player_1_Controller_Script;
 
-    private bool condicion = true;
+    public bool condicion = true;
 
     public float TiempoEjecucion;
     public float TiempoEjecucion2;
@@ -51,6 +51,7 @@ public class CV_Switch : MonoBehaviour
     private void DespuesDelTiempo2()
     {
         CamaraMain.SetActive(true);
+        condicion = true;
         Destroy(gameObject);
     }
 

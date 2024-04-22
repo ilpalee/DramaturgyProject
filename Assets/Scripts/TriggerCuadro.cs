@@ -47,8 +47,8 @@ public class TriggerCuadro : MonoBehaviour
 
     private void DespuesDelTiempo()
     {
-        SceneManager.LoadScene("Casa2");
         boxCollider.enabled = false;
+        SceneManager.LoadScene("Casa2", LoadSceneMode.Single);
     }
     
 

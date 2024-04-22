@@ -14,10 +14,13 @@ public class MenuDePausa : MonoBehaviour
     public AudioSource Audio2;
     public AudioSource Audio3;
 
+    public Player_1_Controller Player_1_Controller_Script;
+
     void Start()
     {
         DatosGuardadosScript = FindObjectOfType<DatosGuardadosEntreEscenas>();
         PanelPausa.SetActive(false);
+        Player_1_Controller_Script = FindObjectOfType<Player_1_Controller>();
     }
 
 
@@ -63,6 +66,13 @@ public class MenuDePausa : MonoBehaviour
             DatosGuardadosScript.DestruirEnMenuPrincipal();
         }
         Time.timeScale = 1f;
-        SceneManager.LoadScene("MenuPrincipal");
+        EnPausa = false;
+        //Reinicio bool consejos temporales
+        Inventario.DesactivarBloqueoEscalera = false;
+        //Reinicio bool puzzle libreria y vestidor completos
+        Inventario.Libreria_Completo = false; //test
+        Inventario.Vestidor_Completo = false; //test
+
+        SceneManager.LoadScene("MenuPrincipal", LoadSceneMode.Single);
     }
 }
