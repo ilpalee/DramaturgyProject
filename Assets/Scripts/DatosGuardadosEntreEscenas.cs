@@ -11,6 +11,7 @@ public class DatosGuardadosEntreEscenas : MonoBehaviour
 
     private bool destruirEnSiguienteCarga = false;
 
+
     void Awake()
     {
         if (Instancia == null)
@@ -27,12 +28,14 @@ public class DatosGuardadosEntreEscenas : MonoBehaviour
         }
     }
 
+
     
    // Llamar a esta funcion para destruir el objeto en la escena del menu principal
     public void DestruirEnMenuPrincipal()
     {
         SceneManager.sceneLoaded += HandleSceneLoaded;
         destruirEnSiguienteCarga = true;
+
     }
 
     private void HandleSceneLoaded(Scene scene, LoadSceneMode mode)

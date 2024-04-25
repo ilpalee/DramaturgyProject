@@ -12,6 +12,7 @@ public class PlayerTP : MonoBehaviour
     
     // Referencias de Gameobjects y Scripts para controlarlos en este Script
 
+
     void Start()
     {
         FadeEffect = GameObject.FindGameObjectWithTag("FadeObject");
