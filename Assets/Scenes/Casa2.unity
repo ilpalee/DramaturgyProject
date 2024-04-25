@@ -2766,7 +2766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 1731243795}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 213441870}
   PlayerTP_Script: {fileID: 0}
@@ -7718,7 +7718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 1731243795}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 1673133626}
   PlayerTP_Script: {fileID: 0}
@@ -8559,7 +8559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 1731243795}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 2145998493}
   PlayerTP_Script: {fileID: 0}
@@ -11760,7 +11760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 1731243795}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 1789354174}
   PlayerTP_Script: {fileID: 0}
@@ -14466,7 +14466,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1731243795}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: -1.4
@@ -14608,6 +14608,67 @@ MonoBehaviour:
   clipPasosEnter: {fileID: 8300000, guid: 694d4b765399c914585d71adf3bcfcc1, type: 3}
   clipPasosExit: {fileID: 8300000, guid: 694d4b765399c914585d71adf3bcfcc1, type: 3}
   Personaje: {fileID: 0}
+--- !u!1001 &462249788
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 896144139517853576, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_Name
+      value: FadeControl
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853577, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: FadeEffect
+      value: 
+      objectReference: {fileID: 1731243795}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_RootOrder
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
 --- !u!1001 &467418863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19148,7 +19209,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1731243795}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: -1.4
@@ -22589,7 +22650,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1731243795}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: 1.4
@@ -24755,7 +24816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 1731243795}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 1028175326}
   PlayerTP_Script: {fileID: 0}
@@ -25249,7 +25310,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1731243795}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: 1.4
@@ -33225,7 +33286,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1731243795}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: 1.4
@@ -36759,7 +36820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 1731243795}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 1518292047}
   PlayerTP_Script: {fileID: 0}
@@ -37531,7 +37592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 1731243795}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 1087690147}
   PlayerTP_Script: {fileID: 0}
@@ -39147,7 +39208,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1731243795}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: -1.4
@@ -40983,7 +41044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 1731243795}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 39425995}
   PlayerTP_Script: {fileID: 0}
@@ -41463,7 +41524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 1731243795}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 944404025}
   PlayerTP_Script: {fileID: 0}
@@ -41539,7 +41600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 1731243795}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 2034148736}
   PlayerTP_Script: {fileID: 0}
@@ -41689,7 +41750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 1731243795}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 1697686339}
   PlayerTP_Script: {fileID: 0}
@@ -45824,7 +45885,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1731243795}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: -1.4
@@ -46182,7 +46243,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1731243795}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: 1.4
@@ -46264,7 +46325,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1731243795}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: -1.4
@@ -50029,7 +50090,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1731243795}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: -1.4
@@ -50953,7 +51014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 1731243795}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 126571927}
   PlayerTP_Script: {fileID: 0}
@@ -54809,6 +54870,108 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1731243794
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703543, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_Name
+      value: GDT-Canvas-Fade-Object
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+--- !u!1 &1731243795 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4340539383612703543, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+  m_PrefabInstance: {fileID: 1731243794}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1739217218
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54948,7 +55111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 1731243795}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 52311539}
   PlayerTP_Script: {fileID: 0}
@@ -57631,7 +57794,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1731243795}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: 1.4
@@ -60740,7 +60903,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1731243795}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: 1.4
@@ -62139,7 +62302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 1731243795}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 1904913925}
   PlayerTP_Script: {fileID: 0}
@@ -65103,7 +65266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 1731243795}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 201085867}
   PlayerTP_Script: {fileID: 0}

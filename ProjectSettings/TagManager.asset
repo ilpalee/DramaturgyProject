@@ -30,6 +30,7 @@ TagManager:
   - Escalera_1
   - Escalera_2
   - Consejo2_2
+  - MainCanvas
   layers:
   - Default
   - TransparentFX

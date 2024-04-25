@@ -138,7 +138,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 295290080}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: -1.4
@@ -259,6 +259,7 @@ MonoBehaviour:
   imagenDialogo: {fileID: 21300000, guid: ece5a91c2abb4de4a8823dc74c962327, type: 3}
   NombreSpeaker: Cuadro
   TiempoTipeo: 0.8
+  canvasmain: {fileID: 0}
 --- !u!61 &23564498
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -940,7 +941,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &84710435
 PrefabInstance:
@@ -1207,7 +1208,7 @@ Transform:
   - {fileID: 165722965}
   - {fileID: 150901576}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &98204582
 PrefabInstance:
@@ -2083,7 +2084,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &157207615
 GameObject:
@@ -2205,7 +2206,7 @@ Transform:
   - {fileID: 845899150}
   - {fileID: 1289976781}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &160559879
 PrefabInstance:
@@ -3808,6 +3809,67 @@ Transform:
   m_Father: {fileID: 626366147}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &188833926
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 896144139517853576, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_Name
+      value: FadeControl
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853577, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: FadeEffect
+      value: 
+      objectReference: {fileID: 295290080}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 896144139517853578, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4c8c298e41bece34b9ae310e7a399602, type: 3}
 --- !u!1 &189923412
 GameObject:
   m_ObjectHideFlags: 0
@@ -5262,7 +5324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 295290080}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 165722965}
   PlayerTP_Script: {fileID: 0}
@@ -6528,7 +6590,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &287268408
 MonoBehaviour:
@@ -6584,6 +6646,7 @@ MonoBehaviour:
   imagenDialogo: {fileID: -1992688250, guid: f73137bc2d2cb3b459b88a0235d07974, type: 3}
   NombreSpeaker: Puerta
   TiempoTipeo: 0.05
+  canvasmain: {fileID: 0}
 --- !u!61 &288676142
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6677,6 +6740,108 @@ Transform:
   m_Father: {fileID: 1241684057}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &295290079
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703542, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340539383612703543, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+      propertyPath: m_Name
+      value: GDT-Canvas-Fade-Object
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+--- !u!1 &295290080 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4340539383612703543, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
+  m_PrefabInstance: {fileID: 295290079}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &303607090 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1127430108726092117, guid: 51fd499ddba201e43ba7303813d0e985, type: 3}
@@ -10895,6 +11060,7 @@ MonoBehaviour:
   imagenDialogo: {fileID: -1992688250, guid: f73137bc2d2cb3b459b88a0235d07974, type: 3}
   NombreSpeaker: Puerta
   TiempoTipeo: 0.05
+  canvasmain: {fileID: 0}
 --- !u!61 &382887674
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11032,7 +11198,7 @@ Transform:
   - {fileID: 267798664}
   - {fileID: 634734238}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &384541691
 PrefabInstance:
@@ -12566,7 +12732,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &392516771
 PrefabInstance:
@@ -13214,7 +13380,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &425578771
 GameObject:
@@ -13930,7 +14096,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7695857943400451240, guid: 549871400bc16f64ab52599011649de0, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7695857943400451240, guid: 549871400bc16f64ab52599011649de0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14323,7 +14489,7 @@ Transform:
   - {fileID: 776554745}
   - {fileID: 721818686}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &496704252
 PrefabInstance:
@@ -14703,7 +14869,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -36.86}
 --- !u!1001 &506633889
 PrefabInstance:
@@ -15574,7 +15740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 295290080}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 392089982}
   PlayerTP_Script: {fileID: 0}
@@ -15984,7 +16150,7 @@ Transform:
   - {fileID: 303985326}
   - {fileID: 113876074}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &626473130
 GameObject:
@@ -16598,7 +16764,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 295290080}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: 1.4
@@ -16701,7 +16867,7 @@ Transform:
   - {fileID: 1620122638}
   - {fileID: 831966460}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &679334489
 PrefabInstance:
@@ -17152,6 +17318,7 @@ MonoBehaviour:
   imagenDialogo: {fileID: 2115286344, guid: 16b88b7c26fd88946884ca591fcc4ecf, type: 3}
   NombreSpeaker: Chimenea
   TiempoTipeo: 0.05
+  canvasmain: {fileID: 0}
 --- !u!61 &696494904
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17240,7 +17407,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 295290080}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: -1.4
@@ -17690,7 +17857,7 @@ Transform:
   - {fileID: 539084584}
   - {fileID: 2034791558}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &734832740
 PrefabInstance:
@@ -17826,7 +17993,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 295290080}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: -1.4
@@ -20441,7 +20608,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &793622214
 PrefabInstance:
@@ -20560,7 +20727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 295290080}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 412338943}
   PlayerTP_Script: {fileID: 0}
@@ -21144,7 +21311,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &860298710
 GameObject:
@@ -21873,7 +22040,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &865048189
 MonoBehaviour:
@@ -22419,7 +22586,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &888754627
 GameObject:
@@ -22453,7 +22620,7 @@ Transform:
   - {fileID: 1830877444}
   - {fileID: 2035456207}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &895271099
 PrefabInstance:
@@ -22465,7 +22632,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 295290080}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: -1.4
@@ -22574,7 +22741,7 @@ Transform:
   - {fileID: 2004938702}
   - {fileID: 1302192938}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &900278884
 PrefabInstance:
@@ -23326,7 +23493,7 @@ Transform:
   - {fileID: 1561216441}
   - {fileID: 884493332}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &991522514
 PrefabInstance:
@@ -23685,7 +23852,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 295290080}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: 1.4
@@ -24866,7 +25033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 295290080}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 1957732051}
   PlayerTP_Script: {fileID: 0}
@@ -26184,7 +26351,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1125110496
 GameObject:
@@ -26379,7 +26546,7 @@ Transform:
   - {fileID: 400129213}
   - {fileID: 1849518078}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1152071855
 GameObject:
@@ -27255,7 +27422,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1220867513
 GameObject:
@@ -27288,7 +27455,7 @@ Transform:
   - {fileID: 2050896600}
   - {fileID: 23649564}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1226176967
 PrefabInstance:
@@ -27550,7 +27717,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1236521088
 GameObject:
@@ -27748,7 +27915,7 @@ Transform:
   - {fileID: 23564496}
   - {fileID: 696494902}
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1246632945
 GameObject:
@@ -28486,7 +28653,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1271009145
 GameObject:
@@ -28556,7 +28723,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 295290080}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: -1.4
@@ -29136,7 +29303,7 @@ Transform:
   - {fileID: 503426878}
   - {fileID: 594241035}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1294500155
 GameObject:
@@ -29306,7 +29473,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 295290080}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: -1.4
@@ -29569,7 +29736,7 @@ Transform:
   - {fileID: 1837766163}
   - {fileID: 321690180}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1341217580
 GameObject:
@@ -29601,7 +29768,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1341217582
 BoxCollider2D:
@@ -29639,7 +29806,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 295290080}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: 1.4
@@ -30193,6 +30360,7 @@ MonoBehaviour:
   imagenDialogo: {fileID: -1992688250, guid: f73137bc2d2cb3b459b88a0235d07974, type: 3}
   NombreSpeaker: Puerta
   TiempoTipeo: 0.05
+  canvasmain: {fileID: 0}
 --- !u!61 &1402789237
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35264,7 +35432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 295290080}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 1288170946}
   PlayerTP_Script: {fileID: 0}
@@ -35851,7 +36019,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1589779006
 PrefabInstance:
@@ -36315,7 +36483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 295290080}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 642618934}
   PlayerTP_Script: {fileID: 0}
@@ -36637,7 +36805,7 @@ Transform:
   - {fileID: 232414493}
   - {fileID: 245812029}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1639833379
 GameObject:
@@ -36671,7 +36839,7 @@ Transform:
   - {fileID: 974316710}
   - {fileID: 1631061916}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1648644286 stripped
 Transform:
@@ -37067,7 +37235,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1662795663
 MonoBehaviour:
@@ -37414,6 +37582,7 @@ MonoBehaviour:
   imagenDialogo: {fileID: -1992688250, guid: f73137bc2d2cb3b459b88a0235d07974, type: 3}
   NombreSpeaker: Puerta
   TiempoTipeo: 0.05
+  canvasmain: {fileID: 0}
 --- !u!61 &1678223108
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37642,6 +37811,7 @@ MonoBehaviour:
   imagenDialogo: {fileID: 1925268589, guid: 7940021ecfdbc0c4ba9496d70b240135, type: 3}
   NombreSpeaker: Nota
   TiempoTipeo: 0.05
+  canvasmain: {fileID: 0}
 --- !u!61 &1703958644
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38112,7 +38282,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 295290080}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: 1.4
@@ -38319,6 +38489,7 @@ MonoBehaviour:
   imagenDialogo: {fileID: -1992688250, guid: f73137bc2d2cb3b459b88a0235d07974, type: 3}
   NombreSpeaker: Puerta
   TiempoTipeo: 0.05
+  canvasmain: {fileID: 0}
 --- !u!61 &1771244842
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40392,7 +40563,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1816660102
 BoxCollider2D:
@@ -42675,7 +42846,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1868743243
 PrefabInstance:
@@ -42779,7 +42950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 295290080}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 2076125987}
   PlayerTP_Script: {fileID: 0}
@@ -44251,7 +44422,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1882806977
 BoxCollider2D:
@@ -44559,7 +44730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371c77715469bf429e4b651a021854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeEffect: {fileID: 0}
+  FadeEffect: {fileID: 295290080}
   EnPuerta: 0
   puntoTeleportacion: {fileID: 150901576}
   PlayerTP_Script: {fileID: 0}
@@ -45564,7 +45735,7 @@ Transform:
   - {fileID: 679334490}
   - {fileID: 247232022}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1983713949
 PrefabInstance:
@@ -45576,7 +45747,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 295290080}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: 1.4
@@ -45874,7 +46045,7 @@ PrefabInstance:
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: FadeEffect
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 295290080}
     - target: {fileID: 5046961072464993880, guid: 36a952555e9a5c2488309e3496bcc11a, type: 3}
       propertyPath: PlayerMove.x
       value: 1.4
@@ -45979,7 +46150,7 @@ Transform:
   - {fileID: 1908108602}
   - {fileID: 210676726}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2013407096 stripped
 Transform:
@@ -48392,6 +48563,7 @@ MonoBehaviour:
   imagenDialogo: {fileID: -1992688250, guid: f73137bc2d2cb3b459b88a0235d07974, type: 3}
   NombreSpeaker: Puerta
   TiempoTipeo: 0.05
+  canvasmain: {fileID: 0}
 --- !u!61 &2095125767
 BoxCollider2D:
   m_ObjectHideFlags: 0

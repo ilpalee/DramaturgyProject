@@ -15,7 +15,6 @@ public class PlayerTP : MonoBehaviour
 
     void Start()
     {
-        FadeEffect = GameObject.FindGameObjectWithTag("FadeObject");
         Player_1_Controller_Script = FindObjectOfType<Player_1_Controller>();
     }
 

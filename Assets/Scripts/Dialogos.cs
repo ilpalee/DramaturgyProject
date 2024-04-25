@@ -19,13 +19,14 @@ public class Dialogos : MonoBehaviour
     private int lineIndex;
     public float TiempoTipeo; 
     
+    public Canvas canvasmain;
 
     void Start()
     {
-       Canvas canvas = FindObjectOfType<Canvas>();
-        if (canvas != null)
+        canvasmain = GameObject.FindGameObjectWithTag("MainCanvas").GetComponent<Canvas>();
+        if (canvasmain != null)
         {
-            PanelDialogo = canvas.transform.Find("PanelDialogo").gameObject;
+            PanelDialogo = canvasmain.transform.Find("PanelDialogo").gameObject;
             TextoDialogo = PanelDialogo.transform.Find("TextoDialogo").GetComponent<TMP_Text>();
         }
     }

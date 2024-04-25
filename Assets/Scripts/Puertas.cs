@@ -16,7 +16,7 @@ public class Puertas : MonoBehaviour
     {
         PlayerControllerScript = FindObjectOfType<Player_1_Controller>();
         PlayerTP_Script = FindObjectOfType<PlayerTP>();
-        FadeEffect = GameObject.FindGameObjectWithTag("FadeObject");
+        
         playerCollider = GameObject.FindGameObjectWithTag("Personaje1").GetComponent<Collider2D>();
     }
     

@@ -138,6 +138,9 @@ public class Player_1_Controller : MonoBehaviour
             }
          }     
         }
+
+
+
       }
 
       public bool ReturnEstaCaminando()
@@ -181,9 +184,20 @@ public class Player_1_Controller : MonoBehaviour
       {
         if (scene.name == "Casa2")
         {
-            Ambiente.Stop();
+            if (Ambiente != null)
+            {
+                Ambiente.Stop();
+            }
+            else
+            {
+                Ambiente = null;
+            }
+            
         }
       }
+
+
+
 
       public void CorazonesLogica()
       {
