@@ -20,7 +20,14 @@ public class PuertaFinal : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && EnPuertaFinal == true)
         {
-            
+           Time.timeScale = 1f;
+           MenuDePausa.EnPausa = false;
+           //Reinicio bool consejos temporales
+           Inventario.DesactivarBloqueoEscalera = false;
+           //Reinicio bool puzzle libreria y vestidor completos
+           Inventario.Libreria_Completo = false; 
+           Inventario.Vestidor_Completo = false;
+           
            SceneManager.LoadScene("Final");
            EnPuertaFinal = false;
 

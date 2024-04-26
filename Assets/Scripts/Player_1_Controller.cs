@@ -212,6 +212,14 @@ public class Player_1_Controller : MonoBehaviour
 
         if (Vida <= 0)
         {
+            Time.timeScale = 1f;
+            MenuDePausa.EnPausa = false;
+            //Reinicio bool consejos temporales
+            Inventario.DesactivarBloqueoEscalera = false;
+            //Reinicio bool puzzle libreria y vestidor completos
+            Inventario.Libreria_Completo = false; 
+            Inventario.Vestidor_Completo = false;
+
             SceneManager.LoadScene("GameOver");
 
             if (DatosGuardadosScript != null)

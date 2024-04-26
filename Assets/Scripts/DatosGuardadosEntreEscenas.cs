@@ -40,7 +40,7 @@ public class DatosGuardadosEntreEscenas : MonoBehaviour
 
     private void HandleSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (destruirEnSiguienteCarga && scene.name == "MenuPrincipal" || scene.name == "Final" || scene.name == "GameOver") // test -------------------------------------
+        if (destruirEnSiguienteCarga && scene.name == "MenuPrincipal" || scene.name == "Final" || scene.name == "GameOver")
         {
             SceneManager.sceneLoaded -= HandleSceneLoaded;
             Destroy(gameObject);
