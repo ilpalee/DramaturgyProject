@@ -13,7 +13,7 @@ public class SonidoChimenea : MonoBehaviour
     public AudioSource audioSource;
 
     public float maxDistance = 10f; 
-    public float minVolume = 0.1f; 
+    public float minVolume = 0f; 
     public float maxVolume = 1f; 
     
     void Start()

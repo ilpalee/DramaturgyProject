@@ -37254,7 +37254,7 @@ MonoBehaviour:
   PlayerTransform: {fileID: 0}
   audioSource: {fileID: 1662795664}
   maxDistance: 10
-  minVolume: 0.1
+  minVolume: 0
   maxVolume: 1
 --- !u!82 &1662795664
 AudioSource:
