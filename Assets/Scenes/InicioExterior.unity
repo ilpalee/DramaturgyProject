@@ -60356,6 +60356,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 575011749, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 575011750, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -60371,6 +60375,14 @@ PrefabInstance:
     - target: {fileID: 575011750, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 891262728, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776597222, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1776597223, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_AnchorMax.y
@@ -60439,6 +60451,26 @@ PrefabInstance:
     - target: {fileID: 1677412672556819838, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_Name
       value: DatosEntreEscenas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841274905306029746, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841274905306029746, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 503bb3225b64fbb469a132ff4b5b54ab, type: 3}
+    - target: {fileID: 4841274905306029746, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674826322673540731, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_Name
+      value: UI_Sombra
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674826322673540731, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8516648012798964280, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_TagString

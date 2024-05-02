@@ -21,6 +21,7 @@ public class TriggerCuadro : MonoBehaviour
     {
         DontDestroyOnLoad(gameObject);
         boxCollider = GetComponent<BoxCollider2D>();
+        
     }
 
     // Update is called once per frame
