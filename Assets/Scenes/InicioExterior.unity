@@ -15750,7 +15750,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &535101447
 Transform:
   m_ObjectHideFlags: 0
@@ -60400,6 +60400,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1823737331, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 242035587057130581, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_TagString
       value: Respawn
@@ -60459,7 +60463,7 @@ PrefabInstance:
     - target: {fileID: 4841274905306029746, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 503bb3225b64fbb469a132ff4b5b54ab, type: 3}
+      objectReference: {fileID: 21300000, guid: 0155f0e1184df5748aa06e5930a708f9, type: 3}
     - target: {fileID: 4841274905306029746, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_Color.a
       value: 1

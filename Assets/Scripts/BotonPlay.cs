@@ -12,6 +12,8 @@ public class BotonPlay : MonoBehaviour
 
     private Button button;
     
+    private float Tiempo_Anim_Inicial = 5f;
+
     void Start()
     {
         button = GetComponent<Button>();
@@ -29,7 +31,7 @@ public class BotonPlay : MonoBehaviour
 
     private IEnumerator LoadSceneAfterAnimation()
     {
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        yield return new WaitForSeconds(Tiempo_Anim_Inicial); //animator.GetCurrentAnimatorStateInfo(0).length
 
         // Carga la escena especificada
         SceneManager.LoadScene(sceneToLoad);

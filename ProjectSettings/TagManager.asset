@@ -32,6 +32,8 @@ TagManager:
   - Consejo2_2
   - MainCanvas
   - LuzPj
+  - Maniqui_Int
+  - Espejo_Int
   layers:
   - Default
   - TransparentFX
