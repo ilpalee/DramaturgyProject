@@ -79,6 +79,11 @@ public class Inventario : MonoBehaviour
     {
         Navegar();
 
+        if (Dialogos.Dialogando || MenuDePausa.EnPausa)
+        {
+            Fases_inv = 0;
+            
+        }
 
         if (!Flag && ContadorLibros == 5)
         {

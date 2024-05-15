@@ -28,15 +28,18 @@ public class MenuDePausa : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.P))
+        if (!Dialogos.Dialogando)
         {
-            if(EnPausa)
+            if(Input.GetKeyDown(KeyCode.P))
             {
-                ReanudarJuego();
-            }
-            else
-            {
-                PausarJuego();
+                if(EnPausa)
+                {
+                    ReanudarJuego();
+                }
+                else
+                {
+                    PausarJuego();
+                }
             }
         }
     }
