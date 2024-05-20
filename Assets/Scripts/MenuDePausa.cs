@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class MenuDePausa : MonoBehaviour
 {
@@ -16,7 +18,8 @@ public class MenuDePausa : MonoBehaviour
 
     public Player_1_Controller Player_1_Controller_Script;
 
-
+    public GameObject PanelControles;
+    public GameObject botonASeleccionar;
 
     void Start()
     {
@@ -40,8 +43,15 @@ public class MenuDePausa : MonoBehaviour
                 {
                     PausarJuego();
                 }
+
+                if (PanelControles.activeSelf)
+                {
+                    PanelControles.SetActive(false);
+                    EventSystem.current.SetSelectedGameObject(botonASeleccionar);
+                }
             }
         }
+        
     }
 
     public void PausarJuego()

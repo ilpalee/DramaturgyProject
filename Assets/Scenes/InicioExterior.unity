@@ -17440,6 +17440,11 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 609765069, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
   m_PrefabInstance: {fileID: 6599085683421194516}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &611150749 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 711667577, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+  m_PrefabInstance: {fileID: 6599085683421194516}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &613051340
 GameObject:
   m_ObjectHideFlags: 0
@@ -23064,6 +23069,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 9160293428344136822, guid: 665da9d430ccf284f9b0c883e2bdfa4e, type: 3}
   m_PrefabInstance: {fileID: 817797681}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &819140745 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1511346118, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+  m_PrefabInstance: {fileID: 6599085683421194516}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &821421233
 PrefabInstance:
@@ -35023,7 +35033,6 @@ MonoBehaviour:
   NombreSpeaker: Nota
   TiempoTipeo: 0.05
   canvasmain: {fileID: 0}
-  InventarioScript: {fileID: 6599085683421194527}
 --- !u!212 &1256893587
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -60389,6 +60398,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1511346118, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1693848152, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -60421,6 +60434,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 22403731043368576, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: PanelControles
+      value: 
+      objectReference: {fileID: 819140745}
+    - target: {fileID: 22403731043368576, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
+      propertyPath: botonASeleccionar
+      value: 
+      objectReference: {fileID: 611150749}
     - target: {fileID: 242035587057130581, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
       propertyPath: m_TagString
       value: Respawn
@@ -60504,17 +60525,6 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 3650841274648834254, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
   m_PrefabInstance: {fileID: 6599085683421194516}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6599085683421194527 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8227786166904079861, guid: 9ecc28e61e3adac4ea095f73656a7535, type: 3}
-  m_PrefabInstance: {fileID: 6599085683421194516}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1181289569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 430d6f3977f9f2945a6b18e125d5b872, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &7402439410527648890
 PrefabInstance:
   m_ObjectHideFlags: 0

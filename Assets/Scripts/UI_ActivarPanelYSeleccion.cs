@@ -29,7 +29,7 @@ public class UI_ActivarPanelYSeleccion : MonoBehaviour
    
     void Update()
     {
-        
+
     }
 
 
