@@ -18944,6 +18944,7 @@ GameObject:
   - component: {fileID: 572287742}
   - component: {fileID: 572287743}
   - component: {fileID: 572287744}
+  - component: {fileID: 572287745}
   m_Layer: 0
   m_Name: Director(TimeLine_Final)
   m_TagString: TimeLine_Final
@@ -19013,6 +19014,19 @@ MonoBehaviour:
   director: {fileID: 572287743}
   animationTrackName1: Animation Track (1)
   animationTrackName2: Animation Track
+--- !u!114 &572287745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572287741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aec693c6ec499c4094fa479bed1b58b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playableDirector: {fileID: 572287743}
 --- !u!1001 &574084843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49056,6 +49070,7 @@ GameObject:
   - component: {fileID: 1532397750}
   - component: {fileID: 1532397751}
   - component: {fileID: 1532397752}
+  - component: {fileID: 1532397753}
   m_Layer: 0
   m_Name: Director(TimeLine_2)
   m_TagString: TimeLine_2
@@ -49112,6 +49127,19 @@ MonoBehaviour:
   objectName: Personaje_1
   director: {fileID: 1532397751}
   animationTrackName: Animation Track
+--- !u!114 &1532397753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532397749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aec693c6ec499c4094fa479bed1b58b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playableDirector: {fileID: 1532397751}
 --- !u!1001 &1537361993
 PrefabInstance:
   m_ObjectHideFlags: 0

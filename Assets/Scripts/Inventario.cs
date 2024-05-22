@@ -79,7 +79,7 @@ public class Inventario : MonoBehaviour
     {
         Navegar();
 
-        if (Dialogos.Dialogando || MenuDePausa.EnPausa)
+        if (Dialogos.Dialogando || MenuDePausa.EnPausa || Playable_Director.Playable_Director_Bool)
         {
             Fases_inv = 0;
             

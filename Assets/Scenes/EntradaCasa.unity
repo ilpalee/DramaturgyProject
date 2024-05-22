@@ -22001,6 +22001,7 @@ GameObject:
   - component: {fileID: 865048188}
   - component: {fileID: 865048187}
   - component: {fileID: 865048189}
+  - component: {fileID: 865048190}
   m_Layer: 0
   m_Name: DirectorTimeline
   m_TagString: TimeLine_Chimenea
@@ -22057,6 +22058,19 @@ MonoBehaviour:
   objectName: Personaje_1
   director: {fileID: 865048187}
   animationTrackName: TrackFuego
+--- !u!114 &865048190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865048186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aec693c6ec499c4094fa479bed1b58b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playableDirector: {fileID: 865048187}
 --- !u!1001 &866947423
 PrefabInstance:
   m_ObjectHideFlags: 0
