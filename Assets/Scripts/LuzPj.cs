@@ -7,7 +7,7 @@ public class LuzPj : MonoBehaviour
 
     public Transform Personaje;
     public GameObject Personaje1;
-    
+
     void Start()
     {
         Personaje1 = GameObject.FindGameObjectWithTag("Personaje1");
@@ -19,6 +19,6 @@ public class LuzPj : MonoBehaviour
 
     void Update()
     {
-        
+
     }
 }

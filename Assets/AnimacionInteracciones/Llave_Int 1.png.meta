@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7940021ecfdbc0c4ba9496d70b240135
+guid: 720daaa65a613ef459e2ae26900692b4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -118,7 +118,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -129,106 +129,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Objetos_0
+      name: Llave_Int 1_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 43
-        width: 27
-        height: 25
+        x: 7
+        y: 105
+        width: 34
+        height: 30
       alignment: 9
-      pivot: {x: 0.5, y: -2}
+      pivot: {x: 0, y: -6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92dc8e3a5ac1e41428760c975752ff39
-      internalID: 995281215
+      spriteID: 819ce793f7466d0469960a8a78dece52
+      internalID: -481534418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objetos_1
+      name: Llave_Int 1_1
       rect:
         serializedVersion: 2
-        x: 42
-        y: 43
-        width: 24
-        height: 22
+        x: 55
+        y: 105
+        width: 34
+        height: 30
       alignment: 9
-      pivot: {x: 0.5, y: -2}
+      pivot: {x: 0, y: -6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a781fc63ff1177645b86269229e5d37e
-      internalID: -1179177666
+      spriteID: acff3165ace3bc243a6e24984c9e92e5
+      internalID: -1481740405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objetos_2
+      name: Llave_Int 1_2
       rect:
         serializedVersion: 2
-        x: 74
-        y: 22
-        width: 19
-        height: 35
+        x: 103
+        y: 105
+        width: 34
+        height: 30
       alignment: 9
-      pivot: {x: 0.5, y: -1.3}
+      pivot: {x: 0, y: -6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46ef6ce103d1ba140943780b1b99860e
-      internalID: 1865584069
+      spriteID: f51873ed5e561174bbf70f7be7703f8b
+      internalID: -1877121729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objetos_3
+      name: Llave_Int 1_3
       rect:
         serializedVersion: 2
-        x: 9
-        y: 10
-        width: 25
-        height: 20
+        x: 7
+        y: 57
+        width: 34
+        height: 30
       alignment: 9
-      pivot: {x: 0.5, y: -3}
+      pivot: {x: 0, y: -6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5be03d8c4fa06f94bb1c842af1260754
-      internalID: 1925268589
+      spriteID: e9414fc46333f1d40845b908b3c3b4d4
+      internalID: 482168843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objetos_4
+      name: Llave_Int 1_4
       rect:
         serializedVersion: 2
-        x: 42
-        y: 14
-        width: 24
-        height: 22
+        x: 55
+        y: 57
+        width: 34
+        height: 30
       alignment: 9
-      pivot: {x: 0.5, y: -2}
+      pivot: {x: 0, y: -6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b747fc39a095c44f895533bcfe77eec
-      internalID: 1723916150
+      spriteID: fb5c3b69d56734740828d7182d506eb1
+      internalID: 207524044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Llave_Int 1_5
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 57
+        width: 34
+        height: 30
+      alignment: 9
+      pivot: {x: 0, y: -6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ea14511e5c12d4798c6e3968c56a82
+      internalID: 204260496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Llave_Int 1_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 9
+        width: 34
+        height: 30
+      alignment: 9
+      pivot: {x: 0, y: -6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185fe7a0bb6eafd45b8cf98d2bc35888
+      internalID: -181238723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Llave_Int 1_7
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 9
+        width: 34
+        height: 30
+      alignment: 9
+      pivot: {x: 0, y: -6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fea2bca72e5dd4688326ade45c47c4
+      internalID: 1036435882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Llave_Int 1_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 9
+        width: 34
+        height: 30
+      alignment: 9
+      pivot: {x: 0, y: -6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34a613e15854d3448ebf8c5e268faf8
+      internalID: -1147598648
       vertices: []
       indices: 
       edges: []
@@ -244,11 +328,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Objetos_2: 1865584069
-      Objetos_3: 1925268589
-      Objetos_1: -1179177666
-      Objetos_4: 1723916150
-      Objetos_0: 995281215
+      Llave_Int 1_6: -181238723
+      Llave_Int 1_1: -1481740405
+      Llave_Int 1_4: 207524044
+      Llave_Int 1_5: 204260496
+      Llave_Int 1_0: -481534418
+      Llave_Int 1_8: -1147598648
+      Llave_Int 1_7: 1036435882
+      Llave_Int 1_2: -1877121729
+      Llave_Int 1_3: 482168843
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

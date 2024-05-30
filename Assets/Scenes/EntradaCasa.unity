@@ -10902,7 +10902,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367110773}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.7114296, y: -1.5537, z: -47.56805}
+  m_LocalPosition: {x: -0.7114296, y: -2.0938, z: -47.56805}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23647,7 +23647,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996309404}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.759, y: -1.96, z: -2.4830027}
+  m_LocalPosition: {x: -2.759, y: -2.431, z: -2.4830027}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -37592,7 +37592,7 @@ MonoBehaviour:
   PanelDialogo: {fileID: 0}
   TextoDialogo: {fileID: 0}
   LineasDialogo:
-  - Cerrado.
+  - Requiere Llave.
   imagenDialogo: {fileID: -1992688250, guid: f73137bc2d2cb3b459b88a0235d07974, type: 3}
   NombreSpeaker: Puerta
   TiempoTipeo: 0.05
