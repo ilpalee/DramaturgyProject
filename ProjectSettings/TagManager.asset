@@ -34,6 +34,8 @@ TagManager:
   - LuzPj
   - Maniqui_Int
   - Espejo_Int
+  - Ref_Puerta_Puzzles
+  - PuertaLlave
   layers:
   - Default
   - TransparentFX

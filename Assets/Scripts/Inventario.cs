@@ -43,6 +43,10 @@ public class Inventario : MonoBehaviour
     private Chimenea Script_Chimenea;
     public GameObject AnimacionChimenea;
 
+    private Puerta_a_Puzzles Script_PuertaPuzzles; // AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    public static bool LlaveUsada = false;
+    public AudioSource LlaveSonido;
+
     public AudioSource LibroCorrecto;
 
     private int ContadorLibros;
@@ -148,6 +152,11 @@ public class Inventario : MonoBehaviour
             Script_Chimenea = coll.GetComponent<Chimenea>(); 
         }
 
+        if (coll.CompareTag("PuertaLlave"))
+        {
+            Script_PuertaPuzzles = coll.GetComponent<Puerta_a_Puzzles>(); 
+        }
+
     }
 
     public void OnTriggerExit2D(Collider2D coll)
@@ -175,6 +184,11 @@ public class Inventario : MonoBehaviour
         if (coll.CompareTag("ReferenciaChimenea")) 
         {
             Script_Chimenea = null;
+        }
+
+        if (coll.CompareTag("Ref_Puerta_Puzzles")) 
+        {
+            Script_PuertaPuzzles = null;
         }
 
 
@@ -296,6 +310,14 @@ public class Inventario : MonoBehaviour
 
                         Seleccion[0].sprite = Seleccion_Sprite[1];
                         Seleccion[1].sprite = Seleccion_Sprite[0];
+
+                        if (Input.GetKeyDown(KeyCode.Space) && Script_PuertaPuzzles != null && spriteSeleccionado == Script_PuertaPuzzles.spriteEnPuertaLlave)
+                        {
+                            Bag[ID].GetComponent<Image>().enabled = false;
+                            LlaveUsada = true;
+                            LlaveSonido.Play();
+                            Fases_inv = 0;
+                        }
 
                         if (Input.GetKeyDown(KeyCode.Space) && estanteriaActual != null && spriteSeleccionado == estanteriaActual.spriteEnEstanteria)
                         {
