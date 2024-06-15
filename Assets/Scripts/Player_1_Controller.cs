@@ -34,11 +34,12 @@ public class Player_1_Controller : MonoBehaviour
     
 
     private bool FlagSonidoVida = false;
-    private float TiempoSonidoVida = 1f;
+    private float TiempoSonidoVida = 2f;
     private int VidaAnterior;
     public AudioSource PerdidaVida;
-
-
+    
+    private bool Damage = false; //TEST-----------------------------
+    
       private enum MovementAxis
       {
          Vertical, Horizontal
@@ -56,7 +57,7 @@ public class Player_1_Controller : MonoBehaviour
         CorazonesLogica();
         
             
-        if (MovementInput == true && !Inventario.Activar_inv && !MenuDePausa.EnPausa && !Inventario.EnAnimacionSombrero && !Inventario.EnAnimacionChimenea && !AnimacionFinal.EnAnimacionFinal && !Dialogos.Dialogando)
+        if (MovementInput == true && !Inventario.Activar_inv && !MenuDePausa.EnPausa && !Inventario.EnAnimacionSombrero && !Inventario.EnAnimacionChimenea && !AnimacionFinal.EnAnimacionFinal && !Dialogos.Dialogando && Damage == false)
         {
 
          if (Input.GetButtonDown("Horizontal")) axis = MovementAxis.Horizontal;
@@ -201,14 +202,18 @@ public class Player_1_Controller : MonoBehaviour
 
       public void CorazonesLogica()
       {
+
+
         if (Vida < VidaAnterior && !FlagSonidoVida)
         {
+            anim.Play("Anim_Daño"); //reemplazar por animacion de damage
+            Damage = true;
             PerdidaVida.Play();
             FlagSonidoVida = true;
-            StartCoroutine(ReactivarBoolSonidoVida());
+            StartCoroutine(ReactivarBoolSonidoVidaYMovimiento());
         }
 
-        VidaAnterior = Vida; 
+        VidaAnterior = Vida;
 
         if (Vida <= 0)
         {
@@ -256,10 +261,11 @@ public class Player_1_Controller : MonoBehaviour
       }
 
 
-      IEnumerator ReactivarBoolSonidoVida()
+      IEnumerator ReactivarBoolSonidoVidaYMovimiento()
     {
         yield return new WaitForSeconds(TiempoSonidoVida);
-    
+
+        Damage = false;
         FlagSonidoVida = false;
     }
 

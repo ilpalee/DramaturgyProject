@@ -14,22 +14,38 @@ public class SonidoTelefono : MonoBehaviour
     public GameObject PlayerObject;
     public Transform PlayerTransform;
     public AudioSource audioSource;
+    public AudioSource AudioRisa;
 
     public float maxDistance = 10f; 
     public float minVolume = 0f; 
     public float maxVolume = 1f; 
 
     public GameObject TextoPuerta;
+
+    private bool TriggerTelefono = false;
+    private bool InteraccionUnica = false;
+
+    public Player_1_Controller Pj_Script;
     
     void Start()
     {
         PlayerObject = GameObject.FindGameObjectWithTag("Personaje1");
         PlayerTransform = PlayerObject.GetComponent<Transform>();
+        Pj_Script = FindObjectOfType<Player_1_Controller>();
     }
 
     
     void Update()
     {
+
+        if (Input.GetKeyDown(KeyCode.Space) && TriggerTelefono == true && LlaveEnInventario == true && InteraccionUnica == false)
+        {
+            AudioRisa.Play();
+            Pj_Script.Vida--;
+            audioSource.Stop();
+            InteraccionUnica = true;
+        }
+
         if (!FlagLlave && Llave == null)
         {
             LlaveEnInventario = true;
@@ -64,5 +80,24 @@ public class SonidoTelefono : MonoBehaviour
             audioSource.volume = finalVolume;
         }
         
+    }
+
+
+    public void OnTriggerEnter2D(Collider2D coll)
+    {
+        if (coll.CompareTag("Personaje1"))
+        {
+            TriggerTelefono = true;
+        }
+
+    }
+
+    public void OnTriggerExit2D(Collider2D coll)
+    {
+        if (coll.CompareTag("Personaje1"))
+        {
+            TriggerTelefono = false;
+        }
+
     }
 }

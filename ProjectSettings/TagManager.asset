@@ -36,6 +36,7 @@ TagManager:
   - Espejo_Int
   - Ref_Puerta_Puzzles
   - PuertaLlave
+  - Telefono
   layers:
   - Default
   - TransparentFX
