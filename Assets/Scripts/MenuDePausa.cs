@@ -87,6 +87,9 @@ public class MenuDePausa : MonoBehaviour
         //Reinicio bool puzzle libreria y vestidor completos
         Inventario.Libreria_Completo = false; 
         Inventario.Vestidor_Completo = false;
+        //Reinicio bool llave
+        Inventario.LlaveUsada = false;
+        Puerta_a_Puzzles.EnPuertaLlave = false;
 
 
         SceneManager.LoadScene("MenuPrincipal");

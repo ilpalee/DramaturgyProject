@@ -19,6 +19,16 @@ public class MenuFinal : MonoBehaviour
 
     public void VolverAlMenu()
     {
+        Time.timeScale = 1f;
+        MenuDePausa.EnPausa = false;
+        //Reinicio bool consejos temporales
+        Inventario.DesactivarBloqueoEscalera = false;
+        //Reinicio bool puzzle libreria y vestidor completos
+        Inventario.Libreria_Completo = false; 
+        Inventario.Vestidor_Completo = false;
+        //Reinicio bool llave
+        Inventario.LlaveUsada = false;
+        Puerta_a_Puzzles.EnPuertaLlave = false;
         
         SceneManager.LoadScene("MenuPrincipal");
     }
