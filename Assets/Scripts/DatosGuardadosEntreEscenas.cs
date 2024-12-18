@@ -46,4 +46,6 @@ public class DatosGuardadosEntreEscenas : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    
 }
